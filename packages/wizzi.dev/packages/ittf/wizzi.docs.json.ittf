@@ -1,0 +1,29 @@
+{
+
+    $
+        var md = {
+            name: "wizzi.docs",
+            npmName: "@wizzi/docs",
+            title: "Wizzi factory documentation"
+        }
+
+    base-package( &md )
+
+    params/use( webStaticSite
+    params/use( webCss
+        params/use( tailwindcss
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+

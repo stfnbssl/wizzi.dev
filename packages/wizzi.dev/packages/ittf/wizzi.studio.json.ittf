@@ -1,0 +1,124 @@
+{
+
+    $
+        var md = {
+            name: "wizzi.studio",
+            title: "Wizzi studio express backend"
+        }
+        var isLocal = true; 
+        var isProduction = false;
+        var port = 5100;
+        var useSslCert = false;
+        var useSsl = isLocal ? false : true;
+        var http = useSsl ? 'https' : 'http';
+        var domain = "localhost";
+
+    { App
+        name "${md.name}"
+        kind "Server"
+
+    isLocal ${isLocal ? "true" : "false"}
+    isProduction ${isProduction ? "true" : "false"}
+    { production
+    useSsl ${useSsl ? "true" : "false"}
+    useSslCert ${useSslCert ? "true" : "false"}
+    domain "${domain}"
+    port "${port}"
+    siteUrl "${http}://${domain}"
+    $if domain == "localhost"
+        baseUrl "${http}://${domain}:${port}"
+        useCors true
+        { cors
+            [ clientOrigins
+                "${http}://${domain}:${port}"
+                "${http}://${domain}:5173"
+    $else
+        baseUrl "${http}://${domain}"
+        useCors true
+        { cors
+            [ clientOrigins
+                "${http}://${domain}"
+    siteUrlLocal "${http}://localhost"
+    baseUrlLocal "${http}://localhost:${port}"
+    apiVersion "v1"
+
+    base-package( &md )
+
+    params/use( tsExpressApp
+    params/use( tsCommons
+    params/use( commonsEnv
+    params/use( tsExpress
+        params/use( reactPages
+    params/use( tsExpressUtils
+        params/use( scripts
+        params/use( wizziFs
+    params/use( tsExpressFeatureAuth
+        useLocalUserFromConfig true
+    params/use( tsExpressFeatureConfig
+        params/use( studioUserInfo
+        [ values
+            $*
+            {
+                type 'string'
+                name '___'
+                value '___'
+            *$
+    params/use( tsExpressFeaturePacki
+        params/use( packiProductions
+        params/use( packiStudioFolderEdit
+        params/use( packiBrowse
+    params/use( tsExpressFeatureWizzi
+        [ plugins
+            "./wizzi.plugin.css/index.js"
+            "./wizzi.plugin.html/index.js"
+            "./wizzi.plugin.ittf/index.js"
+            "./wizzi.plugin.js/index.js"
+            "./wizzi.plugin.json/index.js"
+            "./wizzi.plugin.md/index.js"
+            "./wizzi.plugin.svg/index.js"
+            "./wizzi.plugin.text/index.js"
+            "./wizzi.plugin.ts/index.js"
+            "./wizzi.plugin.xml/index.js"
+            "./wizzi.plugin.yaml/index.js"
+        pluginsBaseFolder 'C:/My/wizzi/stfnbssl/wizzi.plugins/packages'
+        params/use( wizziFs
+        params/use( wizziGist
+        params/use( wizziMeta
+            [ metaPlugins
+            metaPluginsBaseFolder 'C:/My/wizzi/stfnbssl/wizzi.metas/packages'
+        params/use( wizziProduction
+        params/use( wizziCdn
+
+    params/use( tsExpressFeatureWizziDocs
+    params/use( tsExpressWizziSite
+        params/use( demoHome
+        params/use( demoWizzi
+        params/use( wizziDocs
+        params/use( packiProductions
+    params/use( tsDbMongoDb
+    params/use( webHtml
+    params/use( webIttfSite
+    params/use( webIttfStudioMeta
+    params/use( webWizziDocs
+
+    [ features
+        {
+            name "philos"
+            hasControllers true
+        {
+            name "geop"
+            hasControllers true
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$

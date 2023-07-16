@@ -1,0 +1,28 @@
+{
+
+    $
+        var md = {
+            name: "wizzi.html.esm.wrapper",
+            npmName: "@wizzi/html.esm.wrapper",
+            title: "Wrapper for esm modules used by @wizzi/plugin.html"
+        }
+
+    base-package( &md )
+    
+    params/use( tsEsmWrapper
+        [ utils
+            "useHastUtilToHtml"
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$

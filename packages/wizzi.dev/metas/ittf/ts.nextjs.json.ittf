@@ -1,0 +1,30 @@
+{
+    $
+        var md = {
+            name: "ts.nextjs",
+            title: "Typescript Next.js",
+            prefix: "tsNextjs"
+        }
+
+    base-meta( &md )
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ Productions
+        {
+            name "${md.prefix}BasicApp"
+            isPackageMain true
+        {
+            name "${md.prefix}Blog"

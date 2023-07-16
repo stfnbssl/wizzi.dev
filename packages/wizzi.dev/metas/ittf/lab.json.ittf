@@ -1,0 +1,31 @@
+{
+    $
+        var md = {
+            name: "lab",
+            title: "Meta lab",
+            prefix: "lab"
+        }
+
+    base-meta( &md )
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ Productions
+        {
+            name "${md.prefix}Html"
+        {
+            name "${md.prefix}Js"
+        {
+            name "${md.prefix}Css"

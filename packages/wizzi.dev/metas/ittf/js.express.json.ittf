@@ -1,0 +1,34 @@
+{
+    $
+        var md = {
+            name: "js.express",
+            title: "Javascript express server",
+            prefix: "jsExpress"
+        }
+
+    base-meta( &md )
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+
+    [ Productions
+        {
+            name "${md.prefix}"
+        {
+            name "${md.prefix}App"
+            isPackageMain true
+        {
+            name "${md.prefix}WizziSite"
+            $$ A WizziSite uses views rendered by the WizziViewEngine

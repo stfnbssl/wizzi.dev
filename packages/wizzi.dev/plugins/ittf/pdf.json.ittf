@@ -1,0 +1,37 @@
+{
+    $
+        var md = {
+            name: "pdf",
+            description: "Pdf document"
+        }
+    
+    base-plugin( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ BuildVars
+        {
+            name "usePdfmake"
+            value "true"
+
+    [ Schemas
+        {
+            name "${md.name}"
+            plugin_type "syntax_structure"
+            hasWizzifier false
+            { wizzifier
+            [ includes
+            [ transformers
+            [ artifacts
+                {
+                    name "document"
+                    outmime "${md.name}"
+                    isDefault true
+                    contentType "appication/${md.name}"
+            [ fileExtensions
+                "${md.name}"

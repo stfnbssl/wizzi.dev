@@ -1,0 +1,44 @@
+{
+    $
+        var md = {
+            name: "graphql",
+            description: "Graphql language"
+        }
+    
+    base-plugin( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ BuildVars
+        {
+            name "useGraphqlParser"
+            value "true"
+
+    [ Schemas
+        {
+            name "${md.name}"
+            plugin_type "syntax_structure"
+            hasNamespaces false
+            hasTextContents false
+            hasWizzifier true
+            { wizzifier
+                [ parserImportCode
+                    "var graphql_parser = require('graphql/language/parser')"
+                [ parserInvokeCode
+                    " _ graphql_parser.parse(tobeWizzified)"
+                useFormatAstMethods true
+            [ includes
+            [ transformers
+            [ artifacts
+                {
+                    name "document"
+                    outmime "${md.name}"
+                    contentType "text/${md.name}"
+                    isDefault true
+            [ fileExtensions
+                "${md.name}"          

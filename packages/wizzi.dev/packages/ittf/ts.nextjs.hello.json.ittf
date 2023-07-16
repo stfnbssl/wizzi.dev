@@ -1,0 +1,28 @@
+{
+
+    $
+        var md = {
+            name: "ts.nextjs.hello",
+            title: "Hello world Nextjs App"
+        }
+
+    base-package( &md )
+    
+    params/use( tsCommons
+    params/use( tsNextjsBasicApp
+        params/use( tailwind
+    params/use( tsNextjsBlog
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$

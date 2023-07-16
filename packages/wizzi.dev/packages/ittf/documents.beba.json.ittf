@@ -1,0 +1,32 @@
+{
+    $
+        var md = {
+            name: "documents.beba",
+            title: "App BeBa documents"
+        }
+
+    base-package( &md )
+
+    params/use( documentsApp
+    params/use( documentsJson
+    params/use( documentsPpt
+    params/use( wizziFactory
+        [ plugins
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+    
+    [ globals
+        {
+            name "bebaImageFolder"
+            value "C:/Users/Stefano Bassoli/Pictures/beba"
+        {
+            name "dot"
+            value "."
+        {
+            name "comma"
+            value ","

@@ -1,0 +1,35 @@
+{
+
+    $
+        var md = {
+            name: "js.webpack.hello",
+            title: "Hello world javascript webpack App"
+        }
+
+    base-package( &md )
+
+    params/use( commonsBabel
+    params/use( commonsWebpack
+    params/use( jsReactWebpackGetStartedApp
+        params/use( webpackHtml, true
+        params/use( webpackCss
+            params/use( miniCssExtract, false
+        params/use( webpackSass, false
+        params/use( webpackImages
+        params/use( webpackFonts
+        params/use( webpackJson
+        params/use( webpackYaml
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$

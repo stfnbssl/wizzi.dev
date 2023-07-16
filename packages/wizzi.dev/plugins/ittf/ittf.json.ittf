@@ -1,0 +1,48 @@
+{
+    $
+        var md = {
+            name: "ittf",
+            description: "Ittf document"
+        }
+    
+    base-plugin( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ Schemas
+        {
+            name "${md.name}"
+            plugin_type "data"
+            multiLineCommentBegin "${'$'}*"
+            multiLineCommentEnd "*${'$'}"
+            hasBuiltinWizziModel true
+            [ includes
+            [ transformers
+                {
+                    name "html-pretty"
+                {
+                    name "cheatsheet"
+            [ artifacts
+                {
+                    name "document"
+                    outmime "${md.name}"
+                    contentType "text/plain"
+                    isDefault true
+                {
+                    name "tojson"
+                    contentType "application/json"
+                    outmime "json"
+            [ fileExtensions
+                "${md.name}"

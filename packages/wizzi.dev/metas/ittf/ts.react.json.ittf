@@ -1,0 +1,69 @@
+{
+    $
+        var md = {
+            name: "ts.react",
+            title: "Typescript react",
+            prefix: "tsReact"
+        }
+
+    base-meta( &md )
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ Productions
+        {
+            name "${md.prefix}"
+        {
+            name "${md.prefix}App"
+            isPackageMain true
+        {
+            name "${md.prefix}Assets"
+        {
+            name "${md.prefix}BasicWebpack"
+            isPackageMain true
+        {
+            name "${md.prefix}BasicVite"
+            isPackageMain true
+        {
+            name "${md.prefix}Components"
+        {
+            name "${md.prefix}Editor"
+        {
+            name "${md.prefix}Features"
+        {
+            name "${md.prefix}NextjsApp"
+            isPackageMain true
+        {
+            name "${md.prefix}PageForms"
+        {
+            name "${md.prefix}Redux"
+        {
+            name "${md.prefix}SiteWebpack"
+        {
+            name "${md.prefix}Storyboard"
+        {
+            name "${md.prefix}Themes"
+        {
+            name "${md.prefix}Typings"
+        {
+            name "${md.prefix}Utils"
+        {
+            name "${md.prefix}WebpackGetStartedApp"
+            isPackageMain true
+        {
+            name "${md.prefix}WebpackWidgetsApp"
+            isPackageMain true
+        {
+            name "${md.prefix}Widgets"

@@ -1,0 +1,42 @@
+{
+    $
+        var md = {
+            name: "rdbms",
+            description: "Rdbms document"
+        }
+    
+    base-plugin( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ Schemas
+        {
+            name "${md.name}"
+            plugin_type "data"
+            hasNamespaces true
+            hasTextContents true
+            [ includes
+            [ transformers
+            [ artifacts
+                {
+                    name "document"
+                    outmime "${md.name}"
+                    contentType "text/${md.name}"
+                    isDefault true
+            [ fileExtensions
+                "${md.name}"                   
+
+    { Utils
+        "useInflection"

@@ -1,0 +1,39 @@
+{
+    $
+        var md = {
+            name: "douments",
+            title: "Documents",
+            prefix: "documents"
+        }
+
+    base-meta( &md )
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ Productions
+        {
+            name "${md.prefix}App"
+        {
+            name "${md.prefix}Docx"
+        {
+            name "${md.prefix}HtmlSlide"
+        {
+            name "${md.prefix}Json"
+        {
+            name "${md.prefix}Pdf"
+        {
+            name "${md.prefix}Ppt"
+        {
+            name "${md.prefix}Utils"

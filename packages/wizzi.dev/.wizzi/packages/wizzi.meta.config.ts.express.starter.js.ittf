@@ -1,0 +1,10 @@
+module
+    kind es6
+
+    $
+        var md = {
+            name: 'ts.express.starter',
+            outputPath: 'C:/My/wizzi/stfnbssl/wizzi.demo/packages/ts.express.starter'
+        };
+
+    base-meta-package-config( &md )

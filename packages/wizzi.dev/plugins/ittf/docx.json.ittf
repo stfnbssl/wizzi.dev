@@ -1,0 +1,37 @@
+{
+    $
+        var md = {
+            name: "docx",
+            description: "Docx document"
+        }
+    
+    base-plugin( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ BuildVars
+        {
+            name "useDocx"
+            value "true"
+
+    [ Schemas
+        {
+            name "${md.name}"
+            plugin_type "syntax_structure"
+            hasWizzifier false
+            { wizzifier
+            [ includes
+            [ transformers
+            [ artifacts
+                {
+                    name "document"
+                    outmime "${md.name}"
+                    isDefault true
+                    contentType "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            [ fileExtensions
+                "${md.name}"

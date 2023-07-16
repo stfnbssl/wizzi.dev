@@ -1,0 +1,10 @@
+module
+    kind es6
+
+    $
+        var md = {
+            name: 'ts.express.webpack',
+            outputPath: 'C:/My/wizzi/stfnbssl/wizzi.demo/packages/ts.express.webpack'
+        };
+
+    base-meta-package-config( &md )

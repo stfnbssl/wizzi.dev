@@ -1,0 +1,47 @@
+{
+    $
+        var md = {
+            name: "plain",
+            description: "Plain and binary (images, fonts, ..) files"
+        }
+    
+    base-plugin( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ Schemas
+        {
+            name "plain"
+            plugin_type "syntax_structure"
+            hasWizzifier true
+            { wizzifier
+                [ parserImportCode
+                [ parserInvokeCode
+            [ includes
+            [ transformers
+            [ artifacts
+                {
+                    name "binary"
+                    outmime "*"
+                    isDefault true
+                    contentType "application/octet-stream"
+            [ fileExtensions
+                "plain"
+                "jpg"
+                "gif"
+                "jpeg"
+                "bmp"
+                "woff"
+                "tiff"

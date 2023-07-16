@@ -1,0 +1,55 @@
+$group
+    $params &md
+
+    name "wizzi.plugin.${md.name}"
+    npnName "@wizzi/plugin.${md.name}"
+    description "Wizzi plugin for ${md.title}"
+    version "0.0.1"
+    usePackageVersion true        
+    { author
+        name "Stefano Bassoli"
+        email "stfn.bssl@gmail.com"
+    { license
+        type "MIT"
+        copy "copy 2023"
+    { github
+        userid "stfnbssl"
+    
+    useWizziV08 true
+    { wizziV08
+        [ plugins
+            "css"
+            "docx"
+            "graphql"
+            "html"
+            "ittf"
+            "js"
+            "ts"
+            "json"
+            "md"
+            "pandoc"            
+            "pdf"
+            "ppt"
+            "text"
+            "svg"
+            "wzjob"
+            "wzschema"
+            "xml"
+            "yaml"
+
+    { App
+        name "${md.title} plugin"
+        kind "WizziPlugin"
+
+    { Package
+        name "wizzi.plugin.${md.title}"
+        description "${md.title} plugin"
+        kind "WizziPlugin"
+
+    params/use( commonsGit
+    params/use( commonsPackage
+    params/use( commonsWizzi
+    params/use( jsCommons
+    params/use( wizziPlugin
+    params/use( wizziFactory
+        [ plugins

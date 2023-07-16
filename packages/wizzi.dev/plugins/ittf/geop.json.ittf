@@ -1,0 +1,42 @@
+{
+    $
+        var md = {
+            name: "geop",
+            description: "Geop document"
+        }
+    
+    base-plugin( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "true"
+        *$
+
+    [ Schemas
+        {
+            name "${md.name}"
+            plugin_type "data"
+            hasWizzifier false
+            { wizzifier
+            [ includes
+            [ transformers
+                {
+                    name "extended"
+                    outmime "json"
+            [ artifacts
+                {
+                    name "document"
+                    outmime "json"
+                    isDefault true
+                    contentType "appication/json"
+            [ fileExtensions
+                "${md.name}"

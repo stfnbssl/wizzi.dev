@@ -1,0 +1,62 @@
+{
+    $
+        var md = {
+            name: "json",
+            description: "JSON document"
+        }
+    
+    base-plugin( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ Schemas
+        {
+            name "${md.name}"
+            plugin_type "data"
+            rootTag "{"
+            multiLineCommentBegin false
+            multiLineCommentEnd false
+            hasWizzifier true
+            hasBuiltinWizziModel true
+            { wizzifier
+                [ parserImportCode
+                    "var ${md.name}_parser = require('./parser')"
+                [ parserInvokeCode
+                    " _ ${md.name}_parser.parseString"
+                    "\t@ tobeWizzified"
+                useFormatAstMethods false
+            [ includes
+            [ transformers
+            [ artifacts
+                {
+                    name "document"
+                    outmime "${md.name}"
+                    contentType "application/${md.name}"
+                    isDefault true
+                {
+                    name "export"
+                    contentType "application/${md.name}"
+                    outmime "${md.name}"
+                {
+                    name "toml"
+                    contentType "text/ml"
+                    outmime "ml"
+                {
+                    name "toyaml"
+                    contentType "text/yaml"
+                    outmime "yaml"
+            [ fileExtensions
+                "${md.name}"
+

@@ -1,0 +1,78 @@
+{
+    $
+        var md = {
+            name: "ts.express",
+            title: "Typescript express server",
+            prefix: "tsExpress"
+        }
+
+    base-meta( &md )
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+
+    [ Productions
+        {
+            name "${md.prefix}"
+        {
+            name "${md.prefix}App"
+            isPackageMain true
+        {
+            name "${md.prefix}Data"
+        {
+            name "${md.prefix}FeatureAccount"
+        {
+            name "${md.prefix}FeatureAuth"
+        {
+            name "${md.prefix}FeatureBlog"
+        {
+            name "${md.prefix}FeatureConfig"
+        {
+            name "${md.prefix}FeatureCdn"
+        {
+            name "${md.prefix}FeatureFilesystem"
+        {
+            name "${md.prefix}FeatureGithub"
+        {
+            name "${md.prefix}FeaturePacki"
+        {
+            name "${md.prefix}FeatureProject"
+        {
+            name "${md.prefix}FeatureRepo"
+        {
+            name "${md.prefix}FeatureUser"
+        {
+            name "${md.prefix}FeatureWizzi"
+        {
+            name "${md.prefix}FeatureWizziDocs"
+        {
+            name "${md.prefix}FeatureWizziFs"
+        {
+            name "${md.prefix}FeatureWizziGist"
+        {
+            name "${md.prefix}FeatureWizziMeta"
+        {
+            name "${md.prefix}FeatureWizziProduction"
+        {
+            name "${md.prefix}Ittf"
+        {
+            name "${md.prefix}Styles"
+        {
+            name "${md.prefix}Tests"
+        {
+            name "${md.prefix}Utils"
+        {
+            name "${md.prefix}WizziSite"
+            $$ A WizziSite uses views rendered by the WizziViewEngine

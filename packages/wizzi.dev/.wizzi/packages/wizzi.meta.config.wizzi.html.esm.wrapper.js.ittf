@@ -1,0 +1,10 @@
+module
+    kind es6
+
+    $
+        var md = {
+            name: 'wizzi.html.esm.wrapper',
+            outputPath: 'C:/My/wizzi/stfnbssl/wizzi.plugins/packages/wizzi.html.esm.wrapper'
+        };
+
+    base-meta-package-config( &md )

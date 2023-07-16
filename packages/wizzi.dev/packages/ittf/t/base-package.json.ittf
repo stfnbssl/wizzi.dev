@@ -1,0 +1,43 @@
+$group
+    $params &md
+
+    name "${md.name}"
+    npmName "${md.npmName}"
+    description "${md.title}"
+    version "0.0.1"
+    { author
+        name "Stefano Bassoli"
+        email "stfn.bssl@gmail.com"
+    { license
+        type "MIT"
+        copy "copy 2023"
+    { github
+        userid "stfnbssl"
+    
+    useWizziV08 true
+    { wizziV08
+        [ plugins
+            "css"
+            "docx"
+            "graphql"
+            "html"
+            "ittf"
+            "js"
+            "ts"
+            "json"
+            "md"
+            "pandoc"            
+            "pdf"
+            "plain"
+            "ppt"
+            "text"
+            "svg"
+            "wzjob"
+            "wzschema"
+            "xml"
+            "yaml"
+
+    params/use( commonsGit
+    params/use( commonsPackage
+    params/use( commonsWizzi
+        useJsCommons false

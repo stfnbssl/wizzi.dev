@@ -1,0 +1,48 @@
+{
+    $
+        var md = {
+            name: "xml",
+            description: "Xml document"
+        }
+    
+    base-plugin( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ BuildVars
+        {
+            name "useXml2Parser"
+            value "true"
+
+    [ Schemas
+        {
+            name "${md.name}"
+            plugin_type "data"
+            multiLineCommentBegin false
+            multiLineCommentEnd false
+            hasWizzifier true
+            hasBuiltinWizziModel true
+            { wizzifier
+                [ parserImportCode
+                    "var xml2js = require('xml2js')"
+                    "var ${md.name}_parser = new xml2js.Parser()"
+                [ parserInvokeCode
+                    "_ ${md.name}_parser.load"
+                    "\t@ tobeWizzified"
+                useFormatAstMethods false
+            [ includes
+            [ transformers
+            [ artifacts
+                {
+                    name "document"
+                    outmime "${md.name}"
+                    contentType "text/${md.name}"
+                    isDefault true
+            [ fileExtensions
+                "${md.name}"
+            

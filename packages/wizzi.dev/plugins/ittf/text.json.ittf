@@ -1,0 +1,51 @@
+{
+    $
+        var md = {
+            name: "text",
+            description: "Text document"
+        }
+    
+    base-plugin( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ Schemas
+        {
+            name "${md.name}"
+            plugin_type "data"
+            multiLineCommentBegin false
+            multiLineCommentEnd false
+            hasWizzifier true
+            hasBuiltinWizziModel true
+            { wizzifier
+                [ parserImportCode
+                    "var ${md.name}_parser = require('./parser')"
+                [ parserInvokeCode
+                    "_ ${md.name}_parser.parseString"
+                    "\t@ tobeWizzified"
+                useFormatAstMethods false
+            [ includes
+            [ transformers
+            [ artifacts
+                {
+                    name "document"
+                    outmime "txt"
+                    contentType "${md.name}/plain"
+                    isDefault true
+            [ fileExtensions
+                "${md.name}"
+                "txt"
+
+

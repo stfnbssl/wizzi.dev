@@ -1,0 +1,37 @@
+{
+    $
+        var md = {
+            name: "starter",
+            title: "Meta starter",
+            prefix: "starter"
+        }
+
+    base-meta( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ Productions
+        {
+            name "${md.prefix}Html"
+            isPackageMain true
+        {
+            name "${md.prefix}Js"
+            isPackageMain true
+        {
+            name "${md.prefix}Ts"
+            isPackageMain true
+        {
+            name "${md.prefix}Wizzi"
+            isPackageMain true

@@ -1,0 +1,48 @@
+{
+    $
+        var md = {
+            name: "yaml",
+            description: "Yaml document"
+        }
+    
+    base-plugin( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ BuildVars
+        {
+            name "useYamlParser"
+            value "true"
+
+    [ Schemas
+        {
+            name "${md.name}"
+            plugin_type "data"
+            multiLineCommentBegin false
+            multiLineCommentEnd false
+            hasWizzifier true
+            hasBuiltinWizziModel true
+            { wizzifier
+                [ parserImportCode
+                    "var ${md.name}_parser = require('js-yaml')"
+                [ parserInvokeCode
+                    "_ ${md.name}_parser.load"
+                    "\t@ tobeWizzified"
+                useFormatAstMethods true
+            [ includes
+            [ transformers
+            [ artifacts
+                {
+                    name "document"
+                    outmime "${md.name}"
+                    isDefault true
+                    contentType "text/${md.name}"
+            [ fileExtensions
+                "${md.name}"
+                "yml"         
+

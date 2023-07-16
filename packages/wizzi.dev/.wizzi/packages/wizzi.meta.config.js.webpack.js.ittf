@@ -1,0 +1,10 @@
+module
+    kind es6
+
+    $
+        var md = {
+            name: 'js.webpack.hello',
+            outputPath: 'C:/My/wizzi/stfnbssl/wizzi.demo/packages/js.webpack.hello'
+        };
+
+    base-meta-package-config( &md )

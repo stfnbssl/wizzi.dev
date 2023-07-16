@@ -1,0 +1,64 @@
+{
+    $
+        var md = {
+            name: "ts",
+            description: "Typescript language"
+        }
+    
+    base-plugin( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ BuildVars
+        {
+            name "useBabelParser"
+            value "true"
+        {
+            name "useBabelParserTypescript"
+            value "true"
+
+    [ Schemas
+        {
+            name "${md.name}"
+            rootElement "xmodule"
+            rootTag "module"
+            plugin_type "syntax_structure"
+            hasNamespaces false
+            hasTextContents false
+            writeGenInfo true
+            multiLineCommentBegin "/*"
+            multiLineCommentEnd "*/"
+            hasWizzifier true
+            { wizzifier
+                [ parserImportCode
+                    "var ${md.name}_parser = require('@babel/parser')"
+                [ parserInvokeCode
+                    "var plugins"
+                    "set plugins"
+                    "\t["
+                    "\t\t@ 'typescript'"
+                    "\t._ concat"
+                    "\t\t@ commonPlugins"
+                    "return"
+                    "\t_ parser.parse"
+                    "\t\t@ tobeWizzified"
+                    "\t\t{"
+                    "\t\t@ sourceType 'module'"
+                    "\t\t@ plugins plugins"
+                useFormatAstMethods true
+            [ includes
+            [ transformers
+            [ artifacts
+                {
+                    name "module"
+                    outmime "${md.name}"
+                    contentType "text/typescript"
+                    isDefault true
+            [ fileExtensions
+                "${md.name}"
+                "tsx"

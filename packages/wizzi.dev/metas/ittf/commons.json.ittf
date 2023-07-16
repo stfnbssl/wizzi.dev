@@ -1,0 +1,51 @@
+{
+    $
+        var md = {
+            name: "commons",
+            title: "Commons",
+            prefix: "commons"
+        }
+
+    base-meta( &md )
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ Productions
+        {
+            name "${md.prefix}Babel"
+        {
+            name "${md.prefix}Babelrc"
+        {
+            name "${md.prefix}Deploy"
+        {
+            name "${md.prefix}Env"
+        {
+            name "${md.prefix}Eslint"
+        {
+            name "${md.prefix}Git"
+        {
+            name "${md.prefix}Package"
+        {
+            name "${md.prefix}Postcss"
+        {
+            name "${md.prefix}Prettier"
+        {
+            name "${md.prefix}ServerCertificate"
+        {
+            name "${md.prefix}Tailwind"
+        {
+            name "${md.prefix}Webpack"
+        {
+            name "${md.prefix}Wizzi"

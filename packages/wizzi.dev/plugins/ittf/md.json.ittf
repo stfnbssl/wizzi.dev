@@ -1,0 +1,94 @@
+{
+    $
+        var md = {
+            name: "md",
+            description: "Markdown language"
+        }
+    
+    base-plugin( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ BuildVars
+        {
+            name "useMarkdownParser"
+            value "true"
+        {
+            name "useDomPurify"
+            value "true"
+
+    [ Schemas
+        {
+            name "md"
+            plugin_type "syntax_structure"
+            hasNamespaces false
+            hasTextContents false
+            multiLineCommentBegin "###"
+            multiLineCommentEnd "###"
+            hasWizzifier true
+            { wizzifier
+                [ parserImportCode
+                    "var md_parser = require('marked')"
+                [ parserInvokeCode
+                    "_ md_parser.parse"
+                    "\t@ tobeWizzified"
+                    "\ta_cb${'('}syntax)"
+                invokeCodeHasCallback true
+                useFormatAstMethods true
+            [ includes
+                {
+                    Name "Html"
+                    name "html"
+                    artifactName "html/document"
+                    [ options
+                    [ items
+                        {
+                            name "html"
+                            parent "element"
+                            tag "::html"
+                            root "html"
+                {
+                    Name "Css"
+                    name "css"
+                    artifactName "css/document"
+                    [ options
+                    [ items
+                        {
+                            name "css"
+                            parent "element"
+                            tag "::css"
+                            root "css"
+                {
+                    Name "Json"
+                    name "json"
+                    artifactName "json/document"
+                    [ options
+                    [ items
+                        {
+                            name "json"
+                            parent "element"
+                            tag "::json"
+                            root "{"
+
+            [ transformers
+            [ artifacts
+                {
+                    name "document"
+                    outmime "md"
+                    contentType "text/html"
+                    isDefault true
+                {
+                    name "tocss"
+                    contentType "text/css"
+                    outmime "css"
+                {
+                    name "tohtml"
+                    contentType "text/html"
+                    outmime "html"
+            [ fileExtensions
+                "md"

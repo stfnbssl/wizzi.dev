@@ -1,0 +1,9 @@
+module
+    kind es6
+
+    $
+        var md = {
+            name: 'cloud'
+        };
+
+    base-meta-meta-config( &md )

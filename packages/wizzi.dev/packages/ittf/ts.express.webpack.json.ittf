@@ -1,0 +1,99 @@
+{
+
+    $
+        var md = {
+            name: "ts.express.webpack",
+            title: "Typescript express webpack"
+        }
+        var isLocal = true; // it is enough to set this to false and generate for deployong to heroku
+        var isProduction = false;
+        var cloudDomain = "www.wizzihub.com";
+        var port = 5100;
+        var useSslCert = false;
+        var useSsl = isLocal ? false : true;
+        var http = useSsl ? 'https' : 'http';
+        var domain = isLocal ? "localhost" : cloudDomain;
+
+    { App
+        name "${md.name}"
+        kind "Server"
+
+    isLocal ${isLocal ? "true" : "false"}
+    isProduction ${isProduction ? "true" : "false"}
+    { production
+    useSsl ${useSsl ? "true" : "false"}
+    useSslCert ${useSslCert ? "true" : "false"}
+    domain "${domain}"
+    port "${port}"
+    siteUrl "${http}://${domain}"
+    $if domain == "localhost"
+        baseUrl "${http}://${domain}:${port}"
+        useCors true
+        { cors
+            [ clientOrigins
+                "${http}://${domain}:${port}"
+                "${http}://${domain}:5173"
+    $else
+        baseUrl "${http}://${domain}"
+        useCors true
+        { cors
+            [ clientOrigins
+                "${http}://${domain}"
+    siteUrlLocal "${http}://localhost"
+    baseUrlLocal "${http}://localhost:${port}"
+    apiVersion "v1"
+
+    base-package( &md )
+
+    params/use( tsExpressApp
+        params/use( webpackApp
+            [ items
+                {
+                    name "hello"
+                    writeToDisk true
+    params/use( tsCommons
+    params/use( commonsEnv
+    params/use( tsExpress
+    params/use( tsExpressFeatureConfig
+        params/use( studioUserInfo
+        [ values
+            $*
+            {
+                type 'string'
+                name '___'
+                value '___'
+            *$
+    params/use( tsExpressFeaturePacki      
+    params/use( tsExpressFeatureWizzi
+        [ plugins
+            "./wizzi.plugin.css/index.js"
+            "./wizzi.plugin.html/index.js"
+            "./wizzi.plugin.ittf/index.js"
+            "./wizzi.plugin.js/index.js"
+            "./wizzi.plugin.json/index.js"
+            "./wizzi.plugin.md/index.js"
+            "./wizzi.plugin.svg/index.js"
+            "./wizzi.plugin.text/index.js"
+            "./wizzi.plugin.ts/index.js"
+            "./wizzi.plugin.xml/index.js"
+            "./wizzi.plugin.yaml/index.js"
+        pluginsBaseFolder 'C:/My/wizzi/stfnbssl/wizzi.plugins/packages'
+    params/use( tsExpressUtils
+    params/use( tsExpressWizziSite
+        params/use( demoWebpack
+    params/use( tsReactSiteWebpack
+    params/use( webHtml
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$

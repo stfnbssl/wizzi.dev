@@ -1,0 +1,60 @@
+{
+    $
+        var md = {
+            name: "svg",
+            description: "Svg document"
+        }
+    
+    base-plugin( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ BuildVars
+        {
+            name "useXml2Parser"
+            value "true"
+
+    [ Schemas
+        {
+            name "${md.name}"
+            plugin_type "syntax_structure"
+            multiLineCommentBegin "<!--"
+            multiLineCommentEnd "-->"
+            hasWizzifier true
+            { wizzifier
+                [ parserImportCode
+                    "var xml2js = require('xml2js')"
+                    "var ${md.name}_parser = new xml2js.Parser()"
+                [ parserInvokeCode
+                    "_ ${md.name}_parser.parseString"
+                    "\t@ tobeWizzified"
+                useFormatAstMethods false
+            [ includes
+                {
+                    Name "Js"
+                    name "js"
+                    artifactName "js/module"
+                    [ options
+                    [ items
+                        {
+                            name "js"
+                            parent "element"
+                            tag "::script"
+                            root "module"
+            [ transformers
+            [ artifacts
+                {
+                    name "document"
+                    outmime "${md.name}"
+                    isDefault true
+                    contentType "image/${md.name}+xml"
+            [ fileExtensions
+                "${md.name}"                   
+
+
+

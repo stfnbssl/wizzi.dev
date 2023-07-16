@@ -1,0 +1,29 @@
+{
+    $
+        var md = {
+            name: "js.react",
+            title: "Javascript React",
+            prefix: "jsReact"
+        }
+
+    base-meta( &md )
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ Productions
+        {
+            name "${md.prefix}WebpackGetStartedApp"
+        {
+            name "${md.prefix}Utils"

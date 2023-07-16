@@ -1,0 +1,72 @@
+{
+    $
+        var md = {
+            name: "vue",
+            description: "Vue document"
+        }
+    
+    base-plugin( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ Schemas
+        {
+            name "${md.name}"
+            plugin_type "syntax_structure"
+            hasNamespaces false
+            hasTextContents false
+            hasWizzifier true
+            { wizzifier
+                [ parserImportCode
+                    "var ${md.name}_parser = require('${md.name}/language/parser')"
+                [ parserInvokeCode
+                    " _ ${md.name}_parser.parse(tobeWizzified)"
+            [ includes
+                {
+                    Name "Js"
+                    name "js"
+                    artifactName "js/module"
+                    [ options
+                    [ items
+                        {
+                            name "js"
+                            parent "node"
+                            tag "::script"
+                            root "module"
+                {
+                    Name "Html"
+                    name "html"
+                    artifactName "html/document"
+                    [ options
+                    [ items
+                        {
+                            name "html"
+                            parent "node"
+                            tag "::html"
+                            root "html"
+            [ transformers
+            [ artifacts
+                {
+                    name "document"
+                    outmime "${md.name}"
+                    isDefault true
+                    contentType "text/plain"
+            [ fileExtensions
+                "${md.name}"                    
+
+
+
+
+            

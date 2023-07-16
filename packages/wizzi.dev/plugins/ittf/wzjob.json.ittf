@@ -1,0 +1,44 @@
+{
+    $
+        var md = {
+            name: "wzjob",
+            description: "Wzjob  document"
+        }
+    
+    base-plugin( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ Schemas
+        {
+            name "${md.name}"
+            plugin_type "syntax_structure"
+            [ includes
+        {
+            name "wfjob"
+            plugin_type "syntax_structure"
+            [ includes
+            [ transformers
+            [ artifacts
+                {
+                    name "document"
+                    outmime "${md.name}"
+                    isDefault true
+                    contentType "text/plain"             
+            [ fileExtensions
+                "${md.name}"       
+            
+
+

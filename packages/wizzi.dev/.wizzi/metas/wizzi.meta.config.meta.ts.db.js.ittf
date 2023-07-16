@@ -1,0 +1,9 @@
+module
+    kind es6
+
+    $
+        var md = {
+            name: 'ts.db'
+        };
+
+    base-meta-meta-config( &md )

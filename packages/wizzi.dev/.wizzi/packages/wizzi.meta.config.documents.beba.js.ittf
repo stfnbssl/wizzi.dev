@@ -1,0 +1,10 @@
+module
+    kind es6
+
+    $
+        var md = {
+            name: 'documents.beba',
+            outputPath: 'C:/My/wizzi/stfnbssl/wizzi.documents/packages/beba'
+        };
+
+    base-meta-package-config( &md )

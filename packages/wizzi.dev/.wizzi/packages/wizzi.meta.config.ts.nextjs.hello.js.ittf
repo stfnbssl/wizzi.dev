@@ -1,0 +1,10 @@
+module
+    kind es6
+
+    $
+        var md = {
+            name: 'ts.nextjs.hello',
+            outputPath: 'C:/My/wizzi/stfnbssl/wizzi.demo/packages/ts.nextjs.hello'
+        };
+
+    base-meta-package-config( &md )

@@ -1,0 +1,37 @@
+{
+    $
+        var md = {
+            name: "ts",
+            title: "Typescript",
+            prefix: "ts"
+        }
+
+    base-meta( &md )
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ Productions
+        {
+            name "${md.prefix}Commons"
+        {
+            name "${md.prefix}EsmWrapper"
+            isPackageMain true            
+        {
+            name "${md.prefix}Node"
+            isPackageMain true            
+        {
+            name "${md.prefix}NodeFeatureGithub"
+        {
+            name "${md.prefix}Utils"

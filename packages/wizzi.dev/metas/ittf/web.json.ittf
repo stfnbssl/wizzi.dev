@@ -1,0 +1,51 @@
+{
+    $
+        var md = {
+            name: "web",
+            title: "Web",
+            prefix: "web"
+        }
+
+    base-meta( &md )
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ Productions
+        {
+            name "${md.prefix}AppCrud"
+        {
+            name "${md.prefix}Css"
+        {
+            name "${md.prefix}Html"
+        {
+            name "${md.prefix}IttfSite"
+        {
+            name "${md.prefix}IttfStudioMeta"
+        {
+            name "${md.prefix}Js"
+        {
+            name "${md.prefix}JsWz"
+        {
+            name "${md.prefix}SiteDemo"
+        {
+            name "${md.prefix}SiteWebapi"
+        {
+            name "${md.prefix}StaticSite"
+            isPackageMain true
+        {
+            name "${md.prefix}Svg"
+        {
+            name "${md.prefix}WizziDocs"
+

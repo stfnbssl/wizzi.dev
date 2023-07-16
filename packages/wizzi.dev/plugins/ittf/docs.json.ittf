@@ -1,0 +1,48 @@
+{
+    $
+        var md = {
+            name: "docs",
+            description: "Docs documents"
+        }
+
+    base-plugin( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+        *$
+
+    [ Utils
+        "useHastUtilToHtml"
+
+    [ Schemas
+        {
+            name "docs"
+            plugin_type "syntax_structure"
+            hasWizzifier false
+            { wizzifier
+            [ includes
+            [ transformers
+            [ artifacts
+                {
+                    name "document"
+                    outmime "json"
+                    isDefault true
+                    contentType "application/json"
+            [ fileExtensions
+                $*
+                "docx"
+                "html"
+                "md"
+                "pdf"
+                "pptx"
+                *$

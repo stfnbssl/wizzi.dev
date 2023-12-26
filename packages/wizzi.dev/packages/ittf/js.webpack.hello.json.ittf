@@ -16,9 +16,10 @@
             params/use( miniCssExtract, false
         params/use( webpackSass, false
         params/use( webpackImages
-        params/use( webpackFonts
+        params/use( webpackFonts, false
         params/use( webpackJson
         params/use( webpackYaml
+        params/use( hybridApp
 
     [ BuildVars
         $*

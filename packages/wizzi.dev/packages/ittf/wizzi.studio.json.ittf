@@ -96,6 +96,51 @@
         params/use( wizziDocs
         params/use( packiProductions
     params/use( tsDbMongoDb
+        params/use( featureTables
+            [ tables
+                {
+                    name "wizziAction"
+                    created_at true
+                    updated_at true
+                    update_delete_by_id true
+                    [ fields
+                        { 
+                            name "owner"
+                            type "string"
+                            isKey true
+                            isListFilter true
+                        { 
+                            name "kind"
+                            isKey true
+                            type "string"
+                        { 
+                            name "name"
+                            isKey true
+                            type "string"
+                        { 
+                            name "description"
+                            type "string"
+                {
+                    name "wizziTable"
+                    created_at true
+                    updated_at true
+                    update_delete_by_id true
+                    [ fields
+                        { 
+                            name "owner"
+                            type "string"
+                            isKey true
+                            isListFilter true
+                        { 
+                            name "name"
+                            type "string"
+                            isKey true
+                        { 
+                            name "field1"
+                            type "string"
+                        { 
+                            name "field2"
+                            type "string"
     params/use( webHtml
     params/use( webIttfSite
     params/use( webIttfStudioMeta
@@ -108,6 +153,14 @@
         {
             name "geop"
             hasControllers true
+        {
+            name "wizziTable"
+            hasControllers true
+            useMongoDb true
+        {
+            name "wizziAction"
+            hasControllers true
+            useMongoDb true
 
     [ BuildVars
         $*

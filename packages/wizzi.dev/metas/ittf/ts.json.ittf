@@ -13,6 +13,7 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ globals
@@ -20,18 +21,51 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
+
+    [ Categories
+        {
+            name "typescript"
 
     [ Productions
         {
             name "${md.prefix}Commons"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "commons"
         {
             name "${md.prefix}EsmWrapper"
             isPackageMain true            
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "esm"
         {
             name "${md.prefix}Node"
             isPackageMain true            
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "nodejs"
         {
             name "${md.prefix}NodeFeatureGithub"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "github"
+                {
+                    name "nodejs"
         {
             name "${md.prefix}Utils"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "utilities"
+

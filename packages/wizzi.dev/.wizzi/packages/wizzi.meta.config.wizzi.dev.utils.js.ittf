@@ -1,0 +1,10 @@
+module
+    kind es6
+
+    $
+        var md = {
+            name: 'wizzi.dev.utils',
+            outputPath: 'C:/My/wizzi/stfnbssl/wizzi.dev/packages/wizzi.dev.utils'
+        };
+
+    base-meta-package-config( &md )

@@ -12,12 +12,14 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ BuildVars
         {
             name "useXml2Parser"
             value "true"
+            type "boolean"
 
     [ Schemas
         {

@@ -13,6 +13,7 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ globals
@@ -20,11 +21,38 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
+
+    [ Categories
+        {
+            name "typescript"
+        {
+            name "nextjs"
 
     [ Productions
         {
             name "${md.prefix}BasicApp"
             isPackageMain true
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "nextjs"
+                {
+                    name "app"
+                {
+                    name "starter"
         {
             name "${md.prefix}Blog"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "nextjs"
+                {
+                    name "blog"

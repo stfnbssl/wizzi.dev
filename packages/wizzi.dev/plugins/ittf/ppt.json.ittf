@@ -12,12 +12,14 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ BuildVars
         {
             name "usePptxgenjs"
             value "true"
+            type "boolean"
 
     [ Schemas
         {

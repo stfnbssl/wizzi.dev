@@ -12,15 +12,17 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ BuildVars
         {
             name "useCssParser"
             value "true"
+            type "boolean"
         {
             name "usePostCss"
-            value "true"
+            type "boolean"
     
     [ Schemas
         {

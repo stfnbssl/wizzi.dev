@@ -13,6 +13,7 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ globals
@@ -20,20 +21,57 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
+
+    [ Categories
+        {
+            name "documents"
 
     [ Productions
         {
             name "${md.prefix}App"
+            isPackageMain true
+            [ categories
+                {
+                    name "documents"
         {
             name "${md.prefix}Docx"
+            [ categories
+                {
+                    name "documents"
+                {
+                    name "word"           
         {
             name "${md.prefix}HtmlSlide"
+            [ categories
+                {
+                    name "documents"
+                {
+                    name "html"           
         {
             name "${md.prefix}Json"
+            [ categories
+                {
+                    name "documents"
+                {
+                    name "json"           
         {
             name "${md.prefix}Pdf"
+            [ categories
+                {
+                    name "documents"
+                {
+                    name "pdf"           
         {
             name "${md.prefix}Ppt"
+            [ categories
+                {
+                    name "documents"
+                {
+                    name "powerpoint"           
         {
             name "${md.prefix}Utils"
+            [ categories
+                {
+                    name "documents"

@@ -102,6 +102,7 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ globals
@@ -109,4 +110,5 @@
         {
             name "___"
             value "___"
+            type "string"
         *$

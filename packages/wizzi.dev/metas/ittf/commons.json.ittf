@@ -13,6 +13,7 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ globals
@@ -20,32 +21,98 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
+
+    [ Categories
+        {
+            name "commons"
 
     [ Productions
         {
             name "${md.prefix}Babel"
+            [ categories
+                {
+                    name "package"
+                {
+                    name "babel"
         {
             name "${md.prefix}Babelrc"
+            [ categories
+                {
+                    name "package"
+                {
+                    name "babel"
         {
             name "${md.prefix}Deploy"
+            [ categories
+                {
+                    name "package"
         {
             name "${md.prefix}Env"
+            [ categories
+                {
+                    name "package"
+                {
+                    name "env"
         {
             name "${md.prefix}Eslint"
+            [ categories
+                {
+                    name "package"
+                {
+                    name "lint"
         {
             name "${md.prefix}Git"
+            [ categories
+                {
+                    name "git"
         {
             name "${md.prefix}Package"
+            [ categories
+                {
+                    name "package"
         {
             name "${md.prefix}Postcss"
+            [ categories
+                {
+                    name "package"
+                {
+                    name "css"
         {
             name "${md.prefix}Prettier"
+            [ categories
+                {
+                    name "package"
+                {
+                    name "prettier"
         {
             name "${md.prefix}ServerCertificate"
+            [ categories
+                {
+                    name "package"
+                {
+                    name "ssl"
+                {
+                    name "security"
         {
             name "${md.prefix}Tailwind"
+            [ categories
+                {
+                    name "package"
+                {
+                    name "css"
         {
             name "${md.prefix}Webpack"
+            [ categories
+                {
+                    name "package"
+                {
+                    name "jspackager"
         {
             name "${md.prefix}Wizzi"
+            [ categories
+                {
+                    name "package"
+                {
+                    name "wizzi"

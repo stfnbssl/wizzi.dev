@@ -13,6 +13,7 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ globals
@@ -20,16 +21,44 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
+
+    [ Categories
+        {
+            name "wizzi"
+        {
+            name "wizzi-jobs"
 
     [ Productions
         {
             name "${md.prefix}Jobs"
+            [ categories
+                {
+                    name "wizzi"
+                {
+                    name "wizzi-jobs"
         {
             name "${md.prefix}Factory"
+            [ categories
+                {
+                    name "wizzi"
+                {
+                    name "wizzi-factory"
         {
             name "${md.prefix}Plugin"
             isPackageMain true
+            [ categories
+                {
+                    name "wizzi"
+                {
+                    name "wizzi-plugin"
         {
             name "${md.prefix}Meta"
             isPackageMain true
+            [ categories
+                {
+                    name "wizzi"
+                {
+                    name "wizzi-meta"
+

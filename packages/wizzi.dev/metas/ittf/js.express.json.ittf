@@ -13,6 +13,7 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ globals
@@ -20,15 +21,93 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
+
+    [ Categories
+        {
+            name "javascript"
+        {
+            name "express"
 
     [ Productions
         {
             name "${md.prefix}"
+            [ categories
+                {
+                    name "javascript"
+                {
+                    name "express"
+                {
+                    name "server"
         {
             name "${md.prefix}App"
             isPackageMain true
+            [ categories
+                {
+                    name "javascript"
+                {
+                    name "express"
+                {
+                    name "server"
+        {
+            name "${md.prefix}BasicApp"
+            isPackageMain true
+            [ categories
+                {
+                    name "javascript"
+                {
+                    name "express"
+                {
+                    name "server"
+        {
+            name "${md.prefix}FeatureConfig"
+            [ categories
+                {
+                    name "javascript"
+                {
+                    name "express"
+                {
+                    name "server"
+                {
+                    name "config"
+        {
+            name "${md.prefix}FeatureWizzi"
+            [ categories
+                {
+                    name "javascript"
+                {
+                    name "express"
+                {
+                    name "wizzi"
+        {
+            name "${md.prefix}Styles"
+            [ categories
+                {
+                    name "javascript"
+                {
+                    name "express"
+                {
+                    name "styles"
+        {
+            name "${md.prefix}Utils"
+            [ categories
+                {
+                    name "javascript"
+                {
+                    name "express"
+                {
+                    name "utilities"
         {
             name "${md.prefix}WizziSite"
             $$ A WizziSite uses views rendered by the WizziViewEngine
+            [ categories
+                {
+                    name "javascript"
+                {
+                    name "express"
+                {
+                    name "wizzi"
+                {
+                    name "site"

@@ -12,6 +12,7 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ BuildVars
@@ -19,6 +20,7 @@
         {
             name "___"
             value "true"
+            type "string"
         *$
 
     [ Schemas

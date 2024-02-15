@@ -13,6 +13,7 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ globals
@@ -20,32 +21,110 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
+
+    [ Categories
+        {
+            name "webdev"
 
     [ Productions
         {
             name "${md.prefix}AppCrud"
+            [ categories
+                {
+                    name "webdev"
+                {
+                    name "app"
+                {
+                    name "database"
         {
             name "${md.prefix}Css"
+            [ categories
+                {
+                    name "webdev"
+                {
+                    name "css"
         {
             name "${md.prefix}Html"
+            [ categories
+                {
+                    name "webdev"
+                {
+                    name "html"
         {
             name "${md.prefix}IttfSite"
+            [ categories
+                {
+                    name "webdev"
+                {
+                    name "site"
         {
             name "${md.prefix}IttfStudioMeta"
+            [ categories
+                {
+                    name "webdev"
+                {
+                    name "wizzi"
+                {
+                    name "wizzi-studio"
+                {
+                    name "ittf"
         {
             name "${md.prefix}Js"
+            [ categories
+                {
+                    name "webdev"
+                {
+                    name "javascript"
         {
             name "${md.prefix}JsWz"
+            [ categories
+                {
+                    name "webdev"
+                {
+                    name "javascript"
+                {
+                    name "wizzi"
         {
             name "${md.prefix}SiteDemo"
+            [ categories
+                {
+                    name "webdev"
+                {
+                    name "site"
+                {
+                    name "demo"
         {
             name "${md.prefix}SiteWebapi"
+            [ categories
+                {
+                    name "webdev"
+                {
+                    name "site"
         {
             name "${md.prefix}StaticSite"
             isPackageMain true
+            [ categories
+                {
+                    name "webdev"
+                {
+                    name "static-site"
         {
             name "${md.prefix}Svg"
+            [ categories
+                {
+                    name "webdev"
+                {
+                    name "svg"
         {
             name "${md.prefix}WizziDocs"
+            [ categories
+                {
+                    name "webdev"
+                {
+                    name "wizzi"
+                {
+                    name "wizzi-docs"
+
 

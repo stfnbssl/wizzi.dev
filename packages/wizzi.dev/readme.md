@@ -1,15 +1,14 @@
-# $wizzi.meta.js
+# wizzi.dev
 
-$Wizzi meta plugin for creating wizzi js packages
+Development package for creating new Wizzi packages starting from a Wizzi meta plugin
 
 
 ## Features
+Wizzi.dev is an utility package for generating new Wizzi packages from Wizzi meta plugins. In its folders (metas, plugins, packages ...) you can write the wizzi.meta.config files that contain the properties of the package to be generated.
 
-
-<p>You can find a few samples in the /examples folder, but you can find more in the<a href="https://github.com/wizzifactory/wizzi/tree/master/packages/wizzi-demo/.wizzi/ittf/examples/advanced/plugins">demo package</a>.</p>
 
 ## Source and generation
-$wizzi.meta.js is generated using Wizzi.
+wizzi.dev is generated using Wizzi.
 
 
 ## Wizzi

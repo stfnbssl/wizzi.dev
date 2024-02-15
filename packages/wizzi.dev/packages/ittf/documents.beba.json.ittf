@@ -18,15 +18,19 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
     
     [ globals
         {
             name "bebaImageFolder"
             value "C:/Users/Stefano Bassoli/Pictures/beba"
+            type "string"
         {
             name "dot"
             value "."
+            type "string"
         {
             name "comma"
             value ","
+            type "string"

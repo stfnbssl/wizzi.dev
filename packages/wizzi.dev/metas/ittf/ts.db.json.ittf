@@ -13,6 +13,7 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ globals
@@ -20,14 +21,49 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
+
+    [ Categories
+        {
+            name "typescript"
+        {
+            name "mongodb"
 
     [ Productions
         {
             name "${md.prefix}MongoDb"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "database"
+                {
+                    name "mongodb"
         {
             name "${md.prefix}Postgres"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "database"
+                {
+                    name "postgres"
         {
             name "${md.prefix}Redis"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "database"
+                {
+                    name "redis"
         {
             name "${md.prefix}Sequelize"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "database"
+                {
+                    name "sequelize"

@@ -1,0 +1,61 @@
+{
+    $
+        var md = {
+            name: "js.db",
+            title: "Javascript database layer",
+            prefix: "jsDb"
+        }
+
+    base-meta( &md )
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$
+
+    [ Categories
+        {
+            name "javascript"
+        {
+            name "mongodb"
+
+    [ Productions
+        {
+            name "${md.prefix}MongoDb"
+            [ categories
+                {
+                    name "database"
+                {
+                    name "mongodb"
+        {
+            name "${md.prefix}Postgres"
+            [ categories
+                {
+                    name "database"
+                {
+                    name "postgres"
+        {
+            name "${md.prefix}Redis"
+            [ categories
+                {
+                    name "database"
+                {
+                    name "redis"
+        {
+            name "${md.prefix}Sequelize"
+            [ categories
+                {
+                    name "database"
+                {
+                    name "sequelize"

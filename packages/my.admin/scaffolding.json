@@ -1,0 +1,3154 @@
+{
+    "wizziPackages": [
+        {
+            "name": "wizzi.meta.cloud",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.cloud",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.cloud\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.cloud\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": false,
+            "isMetaPlugin": true,
+            "metaProductions": {
+                "cloudAzure": {
+                    "name": "cloudAzure",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.cloud\\.wizzi-override\\ittf\\cloudAzure",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.cloud\\.wizzi-override\\ittf\\cloudAzure\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"azure\"\r\n"
+                },
+                "cloudHeroku": {
+                    "name": "cloudHeroku",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.cloud\\.wizzi-override\\ittf\\cloudHeroku",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.cloud\\.wizzi-override\\ittf\\cloudHeroku\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"heroku\"\r\n"
+                }
+            }
+        },
+        {
+            "name": "wizzi.meta.commons",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": false,
+            "isMetaPlugin": true,
+            "metaProductions": {
+                "commonsBabel": {
+                    "name": "commonsBabel",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsBabel",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsBabel\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"commonsBabel\"\r\n"
+                },
+                "commonsBabelrc": {
+                    "name": "commonsBabelrc",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsBabelrc",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsBabelrc\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"commonsBabelrc\"\r\n"
+                },
+                "commonsDeploy": {
+                    "name": "commonsDeploy",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsDeploy",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsDeploy\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"commonsDeploy\"\r\n"
+                },
+                "commonsEnv": {
+                    "name": "commonsEnv",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsEnv",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsEnv\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"commonsEnv\"\r\n    params/boolean(useDeployClient)\r\n"
+                },
+                "commonsEslint": {
+                    "name": "commonsEslint",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsEslint",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsEslint\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"commonsEslint\"\r\n"
+                },
+                "commonsGit": {
+                    "name": "commonsGit",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsGit",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsGit\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"commonsGit\"\r\n"
+                },
+                "commonsPackage": {
+                    "name": "commonsPackage",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsPackage",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsPackage\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"commonsPackage\"\r\n"
+                },
+                "commonsPostcss": {
+                    "name": "commonsPostcss",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsPostcss",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsPostcss\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"commonsPostcss\"\r\n"
+                },
+                "commonsPrettier": {
+                    "name": "commonsPrettier",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsPrettier",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsPrettier\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"commonsPrettier\"\r\n"
+                },
+                "commonsServerCertificate": {
+                    "name": "commonsServerCertificate",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsServerCertificate",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsServerCertificate\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"commonsServerCertificate\"\r\n"
+                },
+                "commonsTailwind": {
+                    "name": "commonsTailwind",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsTailwind",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsTailwind\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"commonsTailwind\"\r\n"
+                },
+                "commonsWebpack": {
+                    "name": "commonsWebpack",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsWebpack",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsWebpack\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"commonsWebpack\"\r\n    params/string( outputPath )\r\n"
+                },
+                "commonsWizzi": {
+                    "name": "commonsWizzi",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsWizzi",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\commonsWizzi\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    [ parameters\r\n        {\r\n            name \"useJsCommons\"\r\n            type \"boolean\"\r\n"
+                },
+                "params": {
+                    "name": "params",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.commons\\.wizzi-override\\ittf\\params",
+                    "metaCtxSchemaPath": null,
+                    "content": null
+                }
+            }
+        },
+        {
+            "name": "wizzi.meta.docs",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.docs",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.docs\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.docs\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": false,
+            "isMetaPlugin": true,
+            "metaProductions": {
+                "docsHtml": {
+                    "name": "docsHtml",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.docs\\.wizzi-override\\ittf\\docsHtml",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.docs\\.wizzi-override\\ittf\\docsHtml\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"docsHtml\"\r\n"
+                },
+                "docsMarkdown": {
+                    "name": "docsMarkdown",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.docs\\.wizzi-override\\ittf\\docsMarkdown",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.docs\\.wizzi-override\\ittf\\docsMarkdown\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"docsMarkdown\"\r\n"
+                },
+                "docsPdf": {
+                    "name": "docsPdf",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.docs\\.wizzi-override\\ittf\\docsPdf",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.docs\\.wizzi-override\\ittf\\docsPdf\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"docsPdf\"\r\n"
+                },
+                "docsPpt": {
+                    "name": "docsPpt",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.docs\\.wizzi-override\\ittf\\docsPpt",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.docs\\.wizzi-override\\ittf\\docsPpt\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"docsPpt\"\r\n"
+                },
+                "docsWord": {
+                    "name": "docsWord",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.docs\\.wizzi-override\\ittf\\docsWord",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.docs\\.wizzi-override\\ittf\\docsWord\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"docsWord\"\r\n"
+                }
+            }
+        },
+        {
+            "name": "wizzi.meta.documents",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.documents",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.documents\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.documents\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": false,
+            "isMetaPlugin": true,
+            "metaProductions": {
+                "documentsApp": {
+                    "name": "documentsApp",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.documents\\.wizzi-override\\ittf\\documentsApp",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.documents\\.wizzi-override\\ittf\\documentsApp\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"documentsApp\"\r\n    [ parameters\r\n        params/use( documentsApp\r\n        params/use( documentsJson\r\n        params/use( documentsPpt"
+                },
+                "documentsDocx": {
+                    "name": "documentsDocx",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.documents\\.wizzi-override\\ittf\\documentsDocx",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.documents\\.wizzi-override\\ittf\\documentsDocx\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"documentsDocx\"\r\n    [ parameters\r\n        {\r\n            name \"useXxx\"\r\n            type \"boolean\"\r\n        {\r\n            name \"Xxx\"\r\n            type \"string\"\r\n            kind \"enum\"\r\n            [ enumValues\r\n                \"aaa\"\r\n                \"bbb\"\r\n"
+                },
+                "documentsHtmlSlide": {
+                    "name": "documentsHtmlSlide",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.documents\\.wizzi-override\\ittf\\documentsHtmlSlide",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.documents\\.wizzi-override\\ittf\\documentsHtmlSlide\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"documentsHtmlSlide\"\r\n    [ parameters\r\n        {\r\n            name \"useXxx\"\r\n            type \"boolean\"\r\n        {\r\n            name \"Xxx\"\r\n            type \"string\"\r\n            kind \"enum\"\r\n            [ enumValues\r\n                \"aaa\"\r\n                \"bbb\"\r\n"
+                },
+                "documentsJson": {
+                    "name": "documentsJson",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.documents\\.wizzi-override\\ittf\\documentsJson",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.documents\\.wizzi-override\\ittf\\documentsJson\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"documentsJson\"\r\n    [ parameters\r\n        {\r\n            name \"useXxx\"\r\n            type \"boolean\"\r\n        {\r\n            name \"Xxx\"\r\n            type \"string\"\r\n            kind \"enum\"\r\n            [ enumValues\r\n                \"aaa\"\r\n                \"bbb\"\r\n"
+                },
+                "documentsPdf": {
+                    "name": "documentsPdf",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.documents\\.wizzi-override\\ittf\\documentsPdf",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.documents\\.wizzi-override\\ittf\\documentsPdf\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"documentsPdf\"\r\n    [ parameters\r\n        {\r\n            name \"useXxx\"\r\n            type \"boolean\"\r\n        {\r\n            name \"Xxx\"\r\n            type \"string\"\r\n            kind \"enum\"\r\n            [ enumValues\r\n                \"aaa\"\r\n                \"bbb\"\r\n"
+                },
+                "documentsPpt": {
+                    "name": "documentsPpt",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.documents\\.wizzi-override\\ittf\\documentsPpt",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.documents\\.wizzi-override\\ittf\\documentsPpt\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"documentsPpt\"\r\n    [ parameters\r\n"
+                },
+                "documentsUtils": {
+                    "name": "documentsUtils",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.documents\\.wizzi-override\\ittf\\documentsUtils",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.documents\\.wizzi-override\\ittf\\documentsUtils\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"documentsUtils\"\r\n    [ parameters\r\n        {\r\n            name \"useXxx\"\r\n            type \"boolean\"\r\n        {\r\n            name \"Xxx\"\r\n            type \"string\"\r\n            kind \"enum\"\r\n            [ enumValues\r\n                \"aaa\"\r\n                \"bbb\"\r\n"
+                }
+            }
+        },
+        {
+            "name": "wizzi.meta.js",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": false,
+            "isMetaPlugin": true,
+            "metaProductions": {
+                "jsCLI": {
+                    "name": "jsCLI",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js\\.wizzi-override\\ittf\\jsCLI",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js\\.wizzi-override\\ittf\\jsCLI\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"jsCLI\"\r\n    [ parameters\r\n        use( config )\r\n"
+                },
+                "jsCommons": {
+                    "name": "jsCommons",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js\\.wizzi-override\\ittf\\jsCommons",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js\\.wizzi-override\\ittf\\jsCommons\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"jscommons\"\r\n"
+                },
+                "jsUtils": {
+                    "name": "jsUtils",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js\\.wizzi-override\\ittf\\jsUtils",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js\\.wizzi-override\\ittf\\jsUtils\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"jsUtils\"\r\n"
+                }
+            }
+        },
+        {
+            "name": "wizzi.meta.js.db",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.db",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.db\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.db\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": false,
+            "isMetaPlugin": true,
+            "metaProductions": {
+                "jsDbMongoDb": {
+                    "name": "jsDbMongoDb",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.db\\.wizzi-override\\ittf\\jsDbMongoDb",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.db\\.wizzi-override\\ittf\\jsDbMongoDb\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"jsDbMongoDb\"\r\n    [ parameters\r\n        params/object(jsDbMongoDb)\r\n            params/use(connectWithRetry)\r\n                params/integer(maxRetries)\r\n                params/integer(retriesSeconds)\r\n            params/use(featureTables)\r\n                params/array(tables)\r\n                    params/object(table)\r\n                        params/string(name)\r\n                        params/string(descr)\r\n                        params/string(prefix)\r\n                        params/boolean(created_at)\r\n                        params/boolean(updated_at)\r\n                        params/boolean(update_delete_by_id)\r\n                        params/array(fields)\r\n                            params/object(field)\r\n                                params/string(name)\r\n                                params/string(type)\r\n                                params/boolean(isKey)\r\n                                params/boolean(isListFilter)"
+                },
+                "jsDbPostgres": {
+                    "name": "jsDbPostgres",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.db\\.wizzi-override\\ittf\\jsDbPostgres",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.db\\.wizzi-override\\ittf\\jsDbPostgres\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\n    productionName \"jsDbPostgres\"\n    [ parameters\n        {\n            name \"useXxx\"\n            type \"boolean\"\n        {\n            name \"Xxx\"\n            type \"string\"\n            kind \"enum\"\n            [ enumValues\n                \"aaa\"\n                \"bbb\"\n"
+                },
+                "jsDbRedis": {
+                    "name": "jsDbRedis",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.db\\.wizzi-override\\ittf\\jsDbRedis",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.db\\.wizzi-override\\ittf\\jsDbRedis\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\n    productionName \"jsDbRedis\"\n    [ parameters\n        {\n            name \"useXxx\"\n            type \"boolean\"\n        {\n            name \"Xxx\"\n            type \"string\"\n            kind \"enum\"\n            [ enumValues\n                \"aaa\"\n                \"bbb\"\n"
+                },
+                "jsDbSequelize": {
+                    "name": "jsDbSequelize",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.db\\.wizzi-override\\ittf\\jsDbSequelize",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.db\\.wizzi-override\\ittf\\jsDbSequelize\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\n    productionName \"jsDbSequelize\"\n    [ parameters\n        {\n            name \"useXxx\"\n            type \"boolean\"\n        {\n            name \"Xxx\"\n            type \"string\"\n            kind \"enum\"\n            [ enumValues\n                \"aaa\"\n                \"bbb\"\n"
+                }
+            }
+        },
+        {
+            "name": "wizzi.meta.js.express",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.express",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.express\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.express\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": false,
+            "isMetaPlugin": true,
+            "metaProductions": {
+                "jsExpress": {
+                    "name": "jsExpress",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.express\\.wizzi-override\\ittf\\jsExpress",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.express\\.wizzi-override\\ittf\\jsExpress\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"jsExpress\"\r\n    [ parameters\r\n        params/object(express)\r\n            params/use(sslCert)\r\n            params/use(staticFiles)\r\n                params/string(publicPath)\r\n            params/use(ittfStaticFiles)\r\n                params/string(publicPath)\r\n            params/object(cors)\r\n                params/array(clientOrigins)\r\n                    params/string(clientOrigin)\r\n        params/object(Build)\r\n        params/use(demo)"
+                },
+                "jsExpressApp": {
+                    "name": "jsExpressApp",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.express\\.wizzi-override\\ittf\\jsExpressApp",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.express\\.wizzi-override\\ittf\\jsExpressApp\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"jsExpressApp\"\r\n    [ parameters\r\n        params/object(App)\r\n            params/string(name)\r\n            params/string(title)\r\n            params/boolean(isLocal)\r\n            params/boolean(isProduction)\r\n            params/string(port)\r\n            params/boolean(useSsl)\r\n            params/string(siteUrl)\r\n            params/string(baseUrl)\r\n            params/string(siteUrlLocal)\r\n            params/string(baseUrlLocal)\r\n            params/string(apiVersion)\r\n        params/use(examples)\r\n            params/use(promise)\r\n        params/use(webpackApp)\r\n            params/array(items)\r\n                params/object(App)\r\n                    params/string(name)\r\n                    params/string(writeToDisk)"
+                },
+                "jsExpressBasicApp": {
+                    "name": "jsExpressBasicApp",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.express\\.wizzi-override\\ittf\\jsExpressBasicApp",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.express\\.wizzi-override\\ittf\\jsExpressBasicApp\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\n    productionName \"jsExpressBasicApp\"\n    [ parameters\n        params/boolean( usePackageVersion )\n"
+                },
+                "jsExpressFeatureConfig": {
+                    "name": "jsExpressFeatureConfig",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.express\\.wizzi-override\\ittf\\jsExpressFeatureConfig",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.express\\.wizzi-override\\ittf\\jsExpressFeatureConfig\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressFeatureConfig\"\r\n    params/use( studioUserInfo"
+                },
+                "jsExpressFeatureWizzi": {
+                    "name": "jsExpressFeatureWizzi",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.express\\.wizzi-override\\ittf\\jsExpressFeatureWizzi",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.express\\.wizzi-override\\ittf\\jsExpressFeatureWizzi\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    [ parameters\r\n        params/use( jsExpressFeatureWizzi\r\n            params/array( plugins\r\n                param/string( pluginName\r\n            params/string( pluginsBaseFolder\r\n            $*\r\n            params/use( wizziCdn\r\n            params/use( wizziFs\r\n            params/use( wizziGist\r\n            params/use( wizziMeta\r\n                params/array( metaPlugins\r\n                    param/string( metaPluginName\r\n                params/string( metaPluginsBaseFolder\r\n            params/use( wizziProduction\r\n            params/use( wizziServices\r\n            *$\r\n       \r\n        params/use( packi \r\n            $$ ???\r\n        params/use( packiBrowse \r\n            $$ ???\r\n        \r\n"
+                },
+                "jsExpressStyles": {
+                    "name": "jsExpressStyles",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.express\\.wizzi-override\\ittf\\jsExpressStyles",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.express\\.wizzi-override\\ittf\\jsExpressStyles\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressStyles\"\r\n"
+                },
+                "jsExpressUtils": {
+                    "name": "jsExpressUtils",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.express\\.wizzi-override\\ittf\\jsExpressUtils",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.express\\.wizzi-override\\ittf\\jsExpressUtils\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"jsExpressUtils\"\r\n    $$ TODO params/use( diffMatchPatch )\r\n    [ parameters\r\n        params/use( scripts )\r\n        params/use( wizziFs )"
+                },
+                "jsExpressWizziSite": {
+                    "name": "jsExpressWizziSite",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.express\\.wizzi-override\\ittf\\jsExpressWizziSite",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.express\\.wizzi-override\\ittf\\jsExpressWizziSite\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressWizziSite\"\r\n    [ parameters\r\n        params/use( account\r\n        params/use( authentication\r\n        params/use( demo\r\n        params/use( demoHome\r\n        params/use( demoWizzi\r\n        params/use( wizziDocs\r\n        params/use( packiProductions\r\n\r\n"
+                }
+            }
+        },
+        {
+            "name": "wizzi.meta.js.react",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.react",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.react\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.react\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": false,
+            "isMetaPlugin": true,
+            "metaProductions": {
+                "jsReact": {
+                    "name": "jsReact",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.react\\.wizzi-override\\ittf\\jsReact",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.react\\.wizzi-override\\ittf\\jsReact\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\n    productionName \"jsReact\"\n    [ parameters\n        {\n            name \"useXxx\"\n            type \"boolean\"\n        {\n            name \"Xxx\"\n            type \"string\"\n            kind \"enum\"\n            [ enumValues\n                \"aaa\"\n                \"bbb\"\n"
+                },
+                "jsReactApp": {
+                    "name": "jsReactApp",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.react\\.wizzi-override\\ittf\\jsReactApp",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.react\\.wizzi-override\\ittf\\jsReactApp\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\n    productionName \"jsReactApp\"\n    [ parameters\n        {\n            name \"useXxx\"\n            type \"boolean\"\n        {\n            name \"Xxx\"\n            type \"string\"\n            kind \"enum\"\n            [ enumValues\n                \"aaa\"\n                \"bbb\"\n"
+                },
+                "jsReactUtils": {
+                    "name": "jsReactUtils",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.react\\.wizzi-override\\ittf\\jsReactUtils",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.react\\.wizzi-override\\ittf\\jsReactUtils\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"jsReactUtils\"\r\n    [ parameters\r\n        params/object(jsReactUtils)\r\n            params/boolean(lodash)"
+                },
+                "jsReactWebpackGetStartedApp": {
+                    "name": "jsReactWebpackGetStartedApp",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.react\\.wizzi-override\\ittf\\jsReactWebpackGetStartedApp",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.react\\.wizzi-override\\ittf\\jsReactWebpackGetStartedApp\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"jsReactWebpackGetStarted\"\r\n    [ parameters\r\n        params/use(webpackCss)\r\n            params/use(miniCssExtract)\r\n        params/use(webpackSass)\r\n        params/use(webpackImages)\r\n        params/use(webpackFonts)\r\n        params/use(webpackYaml)\r\n        params/use(webpackFile)\r\n        params/use(webpackHtml)\r\n        params/use(webpackJson )\r\n        params/use(webpackOutput\r\n        params/object(webpackHtml)\r\n            params/string(title)\r\n            params/string(template)\r\n            params/string(filename)\r\n        params/array(webpackEntries)\r\n            params/object(webpackEntry)\r\n                params/string(name)\r\n                params/string(path)\r\n\r\n\r\n"
+                }
+            }
+        },
+        {
+            "name": "wizzi.meta.js.vanilla",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.vanilla",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.vanilla\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.vanilla\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": false,
+            "isMetaPlugin": true,
+            "metaProductions": {
+                "jsVanillaUtils": {
+                    "name": "jsVanillaUtils",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.vanilla\\.wizzi-override\\ittf\\jsVanillaUtils",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.vanilla\\.wizzi-override\\ittf\\jsVanillaUtils\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"jsVanillaUtils\"\r\n    [ parameters\r\n        params/object(jsVanillaUtils)\r\n            params/boolean(lodash)"
+                },
+                "jsVanillaWebpackGetStartedApp": {
+                    "name": "jsVanillaWebpackGetStartedApp",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.vanilla\\.wizzi-override\\ittf\\jsVanillaWebpackGetStartedApp",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.js.vanilla\\.wizzi-override\\ittf\\jsVanillaWebpackGetStartedApp\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"jsVanillaWebpackGetStarted\"\r\n    [ parameters\r\n        params/use(webpackCss)\r\n            params/use(miniCssExtract)\r\n        params/use(webpackSass)\r\n        params/use(webpackImages)\r\n        params/use(webpackFonts)\r\n        params/use(webpackYaml)\r\n        params/use(webpackFile)\r\n        params/use(webpackHtml)\r\n        params/use(webpackJson )\r\n        params/use(webpackOutput\r\n        params/object(webpackHtml)\r\n            params/string(title)\r\n            params/string(template)\r\n            params/string(filename)\r\n        params/array(webpackEntries)\r\n            params/object(webpackEntry)\r\n                params/string(name)\r\n                params/string(path)\r\n        \r\n"
+                }
+            }
+        },
+        {
+            "name": "wizzi.meta.lab",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.lab",
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.lab\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.lab\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": false,
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.meta.starter",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.starter",
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.starter\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.starter\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": false,
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.meta.ts",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": false,
+            "isMetaPlugin": true,
+            "metaProductions": {
+                "tsCommons": {
+                    "name": "tsCommons",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts\\.wizzi-override\\ittf\\tsCommons",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts\\.wizzi-override\\ittf\\tsCommons\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsCommons\"\r\n    [ parameters\r\n        params/use(wizziViewEngine)\r\n"
+                },
+                "tsEsmWrapper": {
+                    "name": "tsEsmWrapper",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts\\.wizzi-override\\ittf\\tsEsmWrapper",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts\\.wizzi-override\\ittf\\tsEsmWrapper\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsEsmWrapper\"\r\n    [ parameters\r\n        {\r\n            name \"useXxx\"\r\n            type \"boolean\"\r\n        {\r\n            name \"Xxx\"\r\n            type \"string\"\r\n            kind \"enum\"\r\n            [ enumValues\r\n                \"aaa\"\r\n                \"bbb\"\r\n"
+                },
+                "tsNode": {
+                    "name": "tsNode",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts\\.wizzi-override\\ittf\\tsNode",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts\\.wizzi-override\\ittf\\tsNode\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsNode\"\r\n    [ parameters\r\n        params/boolean(isLocal)\r\n        params/boolean(isProduction)\r\n        params/string(baseUrl)\r\n        params/string(baseUrlLocal)\r\n        params/string(apiVersion)\r\n        params/use(features)\r\n            params/use(config)\r\n            params/use(github)\r\n            params/use(packiEdit)\r\n            params/use(wizziCdn)\r\n            params/use(wizziDocs)\r\n            params/use(wizziProduction)\r\n        params/use(authentication)\r\n        params/use(azure)\r\n        params/use(data)\r\n        params/use(envalid)\r\n        params/use(heroku)\r\n        params/use(ittfStatic)\r\n        params/use(lint)\r\n        params/use(mongoDb)\r\n        params/use(packiBrowse)\r\n        params/use(postgres)\r\n        params/use(prismjs)\r\n        params/use(sequelize)\r\n            params/use(postgres)\r\n        params/use(typescript)\r\n        params/use(wizzi)\r\n        params/use(wizziJsonFactory)\r\n        params/use(wizziViewEngine)\r\n\r\n"
+                },
+                "tsUtils": {
+                    "name": "tsUtils",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts\\.wizzi-override\\ittf\\tsUtils",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts\\.wizzi-override\\ittf\\tsUtils\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsUtils\"\r\n"
+                }
+            }
+        },
+        {
+            "name": "wizzi.meta.ts.db",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.db",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.db\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.db\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": false,
+            "isMetaPlugin": true,
+            "metaProductions": {
+                "tsDbMongoDb": {
+                    "name": "tsDbMongoDb",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.db\\.wizzi-override\\ittf\\tsDbMongoDb",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.db\\.wizzi-override\\ittf\\tsDbMongoDb\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsDbMongoDb\"\r\n    [ parameters\r\n        params/object(tsDbMongoDb)\r\n            params/use(featureTables)\r\n                params/array(tables)\r\n                    params/object(table)\r\n                        params/string(name)\r\n                        params/string(descr)\r\n                        params/string(prefix)\r\n                        params/string(prefix)\r\n                        params/boolean(created_at)\r\n                        params/boolean(updated_at)\r\n                        params/boolean(update_delete_by_id)\r\n                        params/array(fields)\r\n                            params/object(field)\r\n                                params/string(name)\r\n                                params/string(type)\r\n                                params/boolean(isKey)\r\n                                params/boolean(isListFilter)"
+                },
+                "tsDbPostgres": {
+                    "name": "tsDbPostgres",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.db\\.wizzi-override\\ittf\\tsDbPostgres",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.db\\.wizzi-override\\ittf\\tsDbPostgres\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsDbPostgres\"\r\n"
+                },
+                "tsDbRedis": {
+                    "name": "tsDbRedis",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.db\\.wizzi-override\\ittf\\tsDbRedis",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.db\\.wizzi-override\\ittf\\tsDbRedis\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsDbRedis\"\r\n"
+                },
+                "tsDbSequelize": {
+                    "name": "tsDbSequelize",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.db\\.wizzi-override\\ittf\\tsDbSequelize",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.db\\.wizzi-override\\ittf\\tsDbSequelize\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsSequelize\"\r\n    params/use( postgres )"
+                }
+            }
+        },
+        {
+            "name": "wizzi.meta.ts.express",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": false,
+            "isMetaPlugin": true,
+            "metaProductions": {
+                "tsExpress": {
+                    "name": "tsExpress",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpress",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpress\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    [ parameters\r\n        params/use( examples\r\n            params/use( promise\r\n        params/use( pages\r\n        params/use( staticFiles\r\n            params/string( publicPath\r\n        params/use( cors\r\n            params/string( clientOrigins\r\n        params/use( webpackApp\r\n            params/array( items\r\n                params/string( name\r\n                params/boolean( writeToDisk"
+                },
+                "tsExpressApp": {
+                    "name": "tsExpressApp",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressApp",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressApp\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressApp\"\r\n"
+                },
+                "tsExpressData": {
+                    "name": "tsExpressData",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressData",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressData\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressData\"\r\n"
+                },
+                "tsExpressFeatureAccount": {
+                    "name": "tsExpressFeatureAccount",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureAccount",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureAccount\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressFeatureAccount\"\r\n"
+                },
+                "tsExpressFeatureAuth": {
+                    "name": "tsExpressFeatureAuth",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureAuth",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureAuth\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressFeatureAuth\"\r\n    params/boolean( useLocalUserFromConfig )\r\n    params/boolean( useJwt )"
+                },
+                "tsExpressFeatureBlog": {
+                    "name": "tsExpressFeatureBlog",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureBlog",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureBlog\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressFeatureBlog\"\r\n"
+                },
+                "tsExpressFeatureCdn": {
+                    "name": "tsExpressFeatureCdn",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureCdn",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureCdn\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressFeatureCdn\"\r\n"
+                },
+                "tsExpressFeatureConfig": {
+                    "name": "tsExpressFeatureConfig",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureConfig",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureConfig\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressFeatureConfig\"\r\n    params/use( studioUserInfo"
+                },
+                "tsExpressFeatureFilesystem": {
+                    "name": "tsExpressFeatureFilesystem",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureFilesystem",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureFilesystem\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressFeatureFilesystem\"\r\n"
+                },
+                "tsExpressFeatureGithub": {
+                    "name": "tsExpressFeatureGithub",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureGithub",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureGithub\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressFeatureGithub\"\r\n"
+                },
+                "tsExpressFeaturePacki": {
+                    "name": "tsExpressFeaturePacki",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeaturePacki",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeaturePacki\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressFeaturePacki\"\r\n    [ parameters\r\n        params/use( studioFolderEdit\r\n        params/use( packiProductions\r\n"
+                },
+                "tsExpressFeatureProject": {
+                    "name": "tsExpressFeatureProject",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureProject",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureProject\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressFeatureProject\"\r\n"
+                },
+                "tsExpressFeatureRepo": {
+                    "name": "tsExpressFeatureRepo",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureRepo",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureRepo\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    [ parameters\r\n        {\r\n            name \"store\"\r\n            type \"string\"\r\n            kind \"enum\"\r\n            [ enumValues\r\n                \"mongoDb\"\r\n                \"sequelize\""
+                },
+                "tsExpressFeatureUser": {
+                    "name": "tsExpressFeatureUser",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureUser",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureUser\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    [ parameters\r\n        {\r\n            name \"store\"\r\n            type \"string\"\r\n            kind \"enum\"\r\n            [ enumValues\r\n                \"mongoDb\"\r\n                \"sequelize\""
+                },
+                "tsExpressFeatureWizzi": {
+                    "name": "tsExpressFeatureWizzi",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureWizzi",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureWizzi\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    [ parameters\r\n        params/use( tsExpressFeatureWizzi\r\n            params/array( plugins\r\n                param/string( pluginName\r\n            params/string( pluginsBaseFolder\r\n            params/use( wizziCdn\r\n            params/use( wizziFs\r\n            params/use( wizziGist\r\n            params/use( wizziMeta\r\n                params/array( metaPlugins\r\n                    param/string( metaPluginName\r\n                params/string( metaPluginsBaseFolder\r\n            params/use( wizziProduction\r\n            params/use( wizziServices\r\n       \r\n        params/use( packi \r\n            $$ ???\r\n        params/use( packiBrowse \r\n            $$ ???\r\n        \r\n"
+                },
+                "tsExpressFeatureWizziDocs": {
+                    "name": "tsExpressFeatureWizziDocs",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureWizziDocs",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureWizziDocs\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressFeatureWizziDocs\"\r\n"
+                },
+                "tsExpressFeatureWizziFs": {
+                    "name": "tsExpressFeatureWizziFs",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureWizziFs",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureWizziFs\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressFeatureWizziFs\"\r\n    [ parameters\r\n\r\n"
+                },
+                "tsExpressFeatureWizziGist": {
+                    "name": "tsExpressFeatureWizziGist",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureWizziGist",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureWizziGist\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressFeatureWizziGist\"\r\n    [ parameters\r\n        {\r\n            name \"useXxx\"\r\n            type \"boolean\"\r\n        {\r\n            name \"Xxx\"\r\n            type \"string\"\r\n            kind \"enum\"\r\n            [ enumValues\r\n                \"aaa\"\r\n                \"bbb\"\r\n"
+                },
+                "tsExpressFeatureWizziMeta": {
+                    "name": "tsExpressFeatureWizziMeta",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureWizziMeta",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureWizziMeta\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressFeatureWizziMeta\"\r\n    [ parameters\r\n        {\r\n            name \"useXxx\"\r\n            type \"boolean\"\r\n        {\r\n            name \"Xxx\"\r\n            type \"string\"\r\n            kind \"enum\"\r\n            [ enumValues\r\n                \"aaa\"\r\n                \"bbb\"\r\n"
+                },
+                "tsExpressFeatureWizziProduction": {
+                    "name": "tsExpressFeatureWizziProduction",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureWizziProduction",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressFeatureWizziProduction\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressFeatureWizziProduction\"\r\n    [ parameters\r\n        {\r\n            name \"useXxx\"\r\n            type \"boolean\"\r\n        {\r\n            name \"Xxx\"\r\n            type \"string\"\r\n            kind \"enum\"\r\n            [ enumValues\r\n                \"aaa\"\r\n                \"bbb\"\r\n"
+                },
+                "tsExpressIttf": {
+                    "name": "tsExpressIttf",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressIttf",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressIttf\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressIttf\"\r\n    [ parameters\r\n        params/use( wizziDocs\r\n\r\n"
+                },
+                "tsExpressStyles": {
+                    "name": "tsExpressStyles",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressStyles",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressStyles\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressStyles\"\r\n"
+                },
+                "tsExpressTests": {
+                    "name": "tsExpressTests",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressTests",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressTests\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressTests\"\r\n"
+                },
+                "tsExpressUtils": {
+                    "name": "tsExpressUtils",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressUtils",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressUtils\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressUtils\"\r\n    $$ TODO params/use( diffMatchPatch )\r\n    [ parameters\r\n        params/use( scripts )\r\n        params/use( wizziFs )"
+                },
+                "tsExpressWizziSite": {
+                    "name": "tsExpressWizziSite",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressWizziSite",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.express\\.wizzi-override\\ittf\\tsExpressWizziSite\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsExpressWizziSite\"\r\n    [ parameters\r\n        params/use( account\r\n        params/use( authentication\r\n        params/use( demo\r\n        params/use( demoHome\r\n        params/use( demoWizzi\r\n        params/use( wizziDocs\r\n        params/use( packiProductions\r\n\r\n"
+                }
+            }
+        },
+        {
+            "name": "wizzi.meta.ts.nextjs",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.nextjs",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.nextjs\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.nextjs\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": false,
+            "isMetaPlugin": true,
+            "metaProductions": {
+                "tsNextjsBasicApp": {
+                    "name": "tsNextjsBasicApp",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.nextjs\\.wizzi-override\\ittf\\tsNextjsBasicApp",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.nextjs\\.wizzi-override\\ittf\\tsNextjsBasicApp\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsNextjsBasicApp\"\r\n    [ parameters\r\n        {\r\n            name \"useXxx\"\r\n            type \"boolean\"\r\n        {\r\n            name \"Xxx\"\r\n            type \"string\"\r\n            kind \"enum\"\r\n            [ enumValues\r\n                \"aaa\"\r\n                \"bbb\"\r\n"
+                },
+                "tsNextjsBlog": {
+                    "name": "tsNextjsBlog",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.nextjs\\.wizzi-override\\ittf\\tsNextjsBlog",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.nextjs\\.wizzi-override\\ittf\\tsNextjsBlog\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsNextjsBlog\"\r\n    [ parameters\r\n        {\r\n            name \"useXxx\"\r\n            type \"boolean\"\r\n        {\r\n            name \"Xxx\"\r\n            type \"string\"\r\n            kind \"enum\"\r\n            [ enumValues\r\n                \"aaa\"\r\n                \"bbb\"\r\n"
+                }
+            }
+        },
+        {
+            "name": "wizzi.meta.ts.react",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": false,
+            "isMetaPlugin": true,
+            "metaProductions": {
+                "tsReact": {
+                    "name": "tsReact",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReact",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReact\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsReact\"\r\n"
+                },
+                "tsReactApp": {
+                    "name": "tsReactApp",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactApp",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactApp\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsReactApp\"\r\n    [ parameters\r\n        params/string( name )\r\n        params/string( version )\r\n        params/string( description )\r\n        params/object( author )\r\n            params/string( name )\r\n            params/string( email )\r\n        params/number( port )\r\n        params/boolean( isLocal )\r\n        params/string( baseUrl )\r\n        params/string( siteUrl )\r\n        params/string( apiVersion )\r\n        params/use( pageForms )\r\n"
+                },
+                "tsReactAssets": {
+                    "name": "tsReactAssets",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactAssets",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactAssets\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsReactAssets\"\r\n"
+                },
+                "tsReactBasicVite": {
+                    "name": "tsReactBasicVite",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactBasicVite",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactBasicVite\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsReactBasicVite\"\r\n"
+                },
+                "tsReactBasicWebpack": {
+                    "name": "tsReactBasicWebpack",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactBasicWebpack",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactBasicWebpack\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsReactBasicWebpack\"\r\n"
+                },
+                "tsReactComponents": {
+                    "name": "tsReactComponents",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactComponents",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactComponents\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsReactComponents\"\r\n    [ parameters\r\n        params/use( shell\r\n        params/use( misc\r\n"
+                },
+                "tsReactFeatures": {
+                    "name": "tsReactFeatures",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactFeatures",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactFeatures\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsReactFeaturePreferences\"\r\n    [ parameters\r\n        {\r\n            name \"useXxx\"\r\n            type \"boolean\"\r\n        {\r\n            name \"Xxx\"\r\n            type \"string\"\r\n            kind \"enum\"\r\n            [ enumValues\r\n                \"aaa\"\r\n                \"bbb\"\r\n"
+                },
+                "tsReactNextjsApp": {
+                    "name": "tsReactNextjsApp",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactNextjsApp",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactNextjsApp\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsReactNextjsApp\"\r\n    [ parameters\r\n        {\r\n            name \"useXxx\"\r\n            type \"boolean\"\r\n        {\r\n            name \"Xxx\"\r\n            type \"string\"\r\n            kind \"enum\"\r\n            [ enumValues\r\n                \"aaa\"\r\n                \"bbb\"\r\n"
+                },
+                "tsReactPageForms": {
+                    "name": "tsReactPageForms",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactPageForms",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactPageForms\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsReactPageForms\"\r\n"
+                },
+                "tsReactRedux": {
+                    "name": "tsReactRedux",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactRedux",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactRedux\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsReactRedux\"\r\n"
+                },
+                "tsReactSiteWebpack": {
+                    "name": "tsReactSiteWebpack",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactSiteWebpack",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactSiteWebpack\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsReactSiteWebpack\"\r\n    [ parameters\r\n        {\r\n            name \"useXxx\"\r\n            type \"boolean\"\r\n        {\r\n            name \"Xxx\"\r\n            type \"string\"\r\n            kind \"enum\"\r\n            [ enumValues\r\n                \"aaa\"\r\n                \"bbb\"\r\n"
+                },
+                "tsReactThemes": {
+                    "name": "tsReactThemes",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactThemes",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactThemes\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsReactThemes\"\r\n    [ parameters\r\n        params/use( expo\r\n"
+                },
+                "tsReactTypings": {
+                    "name": "tsReactTypings",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactTypings",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactTypings\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsReactTypings\"\r\n"
+                },
+                "tsReactUtils": {
+                    "name": "tsReactUtils",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactUtils",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactUtils\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsReactUtils\"\r\n"
+                },
+                "tsReactWebpackGetStartedApp": {
+                    "name": "tsReactWebpackGetStartedApp",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactWebpackGetStartedApp",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactWebpackGetStartedApp\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsReactWebpackGetStartedApp\"\r\n    [ parameters\r\n        {\r\n            name \"useXxx\"\r\n            type \"boolean\"\r\n        {\r\n            name \"Xxx\"\r\n            type \"string\"\r\n            kind \"enum\"\r\n            [ enumValues\r\n                \"aaa\"\r\n                \"bbb\"\r\n"
+                },
+                "tsReactWebpackWidgetsApp": {
+                    "name": "tsReactWebpackWidgetsApp",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactWebpackWidgetsApp",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactWebpackWidgetsApp\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsReactWebpackWidgetsApp\"\r\n    [ parameters\r\n        {\r\n            name \"useXxx\"\r\n            type \"boolean\"\r\n        {\r\n            name \"Xxx\"\r\n            type \"string\"\r\n            kind \"enum\"\r\n            [ enumValues\r\n                \"aaa\"\r\n                \"bbb\"\r\n"
+                },
+                "tsReactWidgets": {
+                    "name": "tsReactWidgets",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactWidgets",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.ts.react\\.wizzi-override\\ittf\\tsReactWidgets\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"tsReactWidgets\"\r\n    [ parameters\r\n        params/use( aphrodite\r\n        params/use( muiBase\r\n        params/use( muiJoy\r\n        params/use( muiSystem\r\n        params/use( styled\r\n"
+                }
+            }
+        },
+        {
+            "name": "wizzi.meta.web",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": false,
+            "isMetaPlugin": true,
+            "metaProductions": {
+                "webAppCrud": {
+                    "name": "webAppCrud",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webAppCrud",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webAppCrud\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"webAppCrud\"\r\n    [ parameters]\r\n        params/object(webAppCrud)\r\n            params/string(name)\r\n            params/string(Name)"
+                },
+                "webCss": {
+                    "name": "webCss",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webCss",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webCss\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"webCss\"\r\n    [ parameters\r\n        params/use(tailwindcss)\r\n        params/use(cheatsheet)\r\n"
+                },
+                "webHtml": {
+                    "name": "webHtml",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webHtml",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webHtml\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"webHtml\"\r\n"
+                },
+                "webIttfSite": {
+                    "name": "webIttfSite",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webIttfSite",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webIttfSite\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"webIttfSite\"\r\n    [ parameters\r\n        {\r\n            name \"useXxx\"\r\n            type \"boolean\"\r\n        {\r\n            name \"Xxx\"\r\n            type \"string\"\r\n            kind \"enum\"\r\n            [ enumValues\r\n                \"aaa\"\r\n                \"bbb\"\r\n"
+                },
+                "webIttfStudioMeta": {
+                    "name": "webIttfStudioMeta",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webIttfStudioMeta",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webIttfStudioMeta\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"webIttfStudioMeta\"\r\n"
+                },
+                "webJs": {
+                    "name": "webJs",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webJs",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webJs\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"webJs\"\r\n    params/use( jsApi )\r\n    params/use( jsControls )\r\n    params/use( jsDb )\r\n    params/use( jsEditors )\r\n    params/use( jsMvc )\r\n    params/use( jsStyles )\r\n    params/use( jsUtils )\r\n"
+                },
+                "webJsWz": {
+                    "name": "webJsWz",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webJsWz",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webJsWz\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"webJsWz\"\r\n"
+                },
+                "webSiteDemo": {
+                    "name": "webSiteDemo",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webSiteDemo",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webSiteDemo\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"js_site_demo\"\r\n"
+                },
+                "webSiteWebapi": {
+                    "name": "webSiteWebapi",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webSiteWebapi",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webSiteWebapi\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"webSiteWebapi\"\r\n    [ parameters\r\n        params/use(blog)\r\n"
+                },
+                "webStaticSite": {
+                    "name": "webStaticSite",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webStaticSite",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webStaticSite\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"webStaticSite\"\r\n    [ parameters\r\n        {\r\n            name \"useXxx\"\r\n            type \"boolean\"\r\n        {\r\n            name \"Xxx\"\r\n            type \"string\"\r\n            kind \"enum\"\r\n            [ enumValues\r\n                \"aaa\"\r\n                \"bbb\"\r\n"
+                },
+                "webSvg": {
+                    "name": "webSvg",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webSvg",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webSvg\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"webSvg\"\r\n"
+                },
+                "webWizziDocs": {
+                    "name": "webWizziDocs",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webWizziDocs",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.web\\.wizzi-override\\ittf\\webWizziDocs\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"webWizziDocs\"\r\n"
+                }
+            }
+        },
+        {
+            "name": "wizzi.meta.wizzi",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.wizzi",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.wizzi\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.wizzi\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": false,
+            "isMetaPlugin": true,
+            "metaProductions": {
+                "wizziFactory": {
+                    "name": "wizziFactory",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.wizzi\\.wizzi-override\\ittf\\wizziFactory",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.wizzi\\.wizzi-override\\ittf\\wizziFactory\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"wizziFactory\"\r\n    [ parameters\r\n        params/object(wizziFactory)\r\n            params/array(plugins)\r\n                params/string(pluginName)\r\n            params/string(pluginsBaseFolder)\r\n"
+                },
+                "wizziJobs": {
+                    "name": "wizziJobs",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.wizzi\\.wizzi-override\\ittf\\wizziJobs",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.wizzi\\.wizzi-override\\ittf\\wizziJobs\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"wzJobs\"\r\n    [ parameters\r\n"
+                },
+                "wizziMeta": {
+                    "name": "wizziMeta",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.wizzi\\.wizzi-override\\ittf\\wizziMeta",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.wizzi\\.wizzi-override\\ittf\\wizziMeta\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"wizziMeta\"\r\n    [ parameters\r\n        params/array(globals)\r\n            params/object(item)\r\n                params/string(name)\r\n                params/string(value)\r\n                params/string(type)\r\n        params/array(BuildVars)\r\n            params/object(item)\r\n                params/string(name)\r\n                params/string(value)\r\n                params/string(type)\r\n        params/array(Productions)\r\n            params/object(item)\r\n                params/string(name)\r\n                params/boolean(isPackageMain)\r\n"
+                },
+                "wizziPlugin": {
+                    "name": "wizziPlugin",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.wizzi\\.wizzi-override\\ittf\\wizziPlugin",
+                    "metaCtxSchemaPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.metas\\packages\\wizzi.meta.wizzi\\.wizzi-override\\ittf\\wizziPlugin\\metaCtxSchemas\\index.json.ittf",
+                    "content": null,
+                    "metaCtxSchemaContent": "{\r\n    productionName \"wizziPlugin\"\r\n    [ parameters\r\n        params/string(name)\r\n        params/string(npnName)\r\n        params/string(description)\r\n        params/string(version)\r\n        params/boolean(usePackageVersion)\r\n        params/object(author)\r\n            params/string(name)\r\n            params/string(email)\r\n        params/object(license)\r\n            params/string(type)\r\n            params/string(copy)\r\n        params/object(github)\r\n            params/string(userid)\r\n        params/object(wizziV08)\r\n            params/array(plugins)\r\n                params/string(pluginName)\r\n        params/object(App)\r\n            params/string(name)\r\n            params/enum(kind)\r\n                \"NodeCLI\"\r\n                \"WizziPackage\"\r\n                \"WizziPlugin\"\r\n                \"WizziMeta\"\r\n        params/object(Package)\r\n            params/string(name)\r\n            params/string(description)\r\n            params/enum(kind)\r\n                \"NodeCLI\"\r\n                \"WizziPackage\"\r\n                \"WizziPlugin\"\r\n                \"WizziMeta\"\r\n"
+                }
+            }
+        },
+        {
+            "name": "t",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\t",
+            "wizziConfigFiles": [],
+            "isPlugin": true,
+            "schemas": {
+                "wfjob": {
+                    "name": "wfjob",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\t\\.wizzi\\lib\\wizzi\\schemas\\wfjob\\wfjob.wfschema.ittf",
+                    "content": null
+                },
+                "wfschema": {
+                    "name": "wfschema",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\t\\.wizzi\\lib\\wizzi\\schemas\\wfschema\\wfschema.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "ittf/document": {
+                    "name": "ittf/document",
+                    "schema": "ittf",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\t\\.wizzi\\lib\\artifacts\\ittf\\document\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "ittf/tojson": {
+                    "name": "ittf/tojson",
+                    "schema": "ittf",
+                    "artifact": "tojson",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\t\\.wizzi\\lib\\artifacts\\ittf\\tojson\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "json/document": {
+                    "name": "json/document",
+                    "schema": "json",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\t\\.wizzi\\lib\\artifacts\\json\\document\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "json/export": {
+                    "name": "json/export",
+                    "schema": "json",
+                    "artifact": "export",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\t\\.wizzi\\lib\\artifacts\\json\\export\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "json/toml": {
+                    "name": "json/toml",
+                    "schema": "json",
+                    "artifact": "toml",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\t\\.wizzi\\lib\\artifacts\\json\\toml\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "json/toyaml": {
+                    "name": "json/toyaml",
+                    "schema": "json",
+                    "artifact": "toyaml",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\t\\.wizzi\\lib\\artifacts\\json\\toyaml\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "text/document": {
+                    "name": "text/document",
+                    "schema": "text",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\t\\.wizzi\\lib\\artifacts\\text\\document\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "wfschema/factory": {
+                    "name": "wfschema/factory",
+                    "schema": "wfschema",
+                    "artifact": "factory",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\t\\.wizzi\\lib\\artifacts\\wfschema\\factory\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "wfschema/html_docs": {
+                    "name": "wfschema/html_docs",
+                    "schema": "wfschema",
+                    "artifact": "html_docs",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\t\\.wizzi\\lib\\artifacts\\wfschema\\html_docs\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "wfschema/model": {
+                    "name": "wfschema/model",
+                    "schema": "wfschema",
+                    "artifact": "model",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\t\\.wizzi\\lib\\artifacts\\wfschema\\model\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "wfschema/test": {
+                    "name": "wfschema/test",
+                    "schema": "wfschema",
+                    "artifact": "test",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\t\\.wizzi\\lib\\artifacts\\wfschema\\test\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "xml/document": {
+                    "name": "xml/document",
+                    "schema": "xml",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\t\\.wizzi\\lib\\artifacts\\xml\\document\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "xml/export": {
+                    "name": "xml/export",
+                    "schema": "xml",
+                    "artifact": "export",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\t\\.wizzi\\lib\\artifacts\\xml\\export\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "yaml/document": {
+                    "name": "yaml/document",
+                    "schema": "yaml",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\t\\.wizzi\\lib\\artifacts\\yaml\\document\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "ittf/cheatsheet": {
+                    "name": "ittf/cheatsheet",
+                    "schema": "ittf",
+                    "artifact": "cheatsheet",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\t\\.wizzi\\lib\\artifacts\\ittf\\cheatsheet\\trans\\main.js.ittf",
+                    "content": null
+                },
+                "ittf/html-pretty": {
+                    "name": "ittf/html-pretty",
+                    "schema": "ittf",
+                    "artifact": "html-pretty",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\t\\.wizzi\\lib\\artifacts\\ittf\\html-pretty\\trans\\main.js.ittf",
+                    "content": null
+                },
+                "wfschema/json_docs": {
+                    "name": "wfschema/json_docs",
+                    "schema": "wfschema",
+                    "artifact": "json_docs",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\t\\.wizzi\\lib\\artifacts\\wfschema\\json_docs\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.c",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.c",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.c\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.c\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "c": {
+                    "name": "c",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.c\\.wizzi-override\\lib\\wizzi\\schemas\\c\\c.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "c/document": {
+                    "name": "c/document",
+                    "schema": "c",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.c\\.wizzi-override\\lib\\artifacts\\c\\document\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "c/module": {
+                    "name": "c/module",
+                    "schema": "c",
+                    "artifact": "module",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.c\\.wizzi-override\\lib\\artifacts\\c\\module\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "c/extended": {
+                    "name": "c/extended",
+                    "schema": "c",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.c\\.wizzi-override\\lib\\artifacts\\c\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.css",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.css",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.css\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.css\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "css": {
+                    "name": "css",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.css\\.wizzi-override\\lib\\wizzi\\schemas\\css\\css.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "css/document": {
+                    "name": "css/document",
+                    "schema": "css",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.css\\.wizzi-override\\lib\\artifacts\\css\\document\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "css/extended": {
+                    "name": "css/extended",
+                    "schema": "css",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.css\\.wizzi-override\\lib\\artifacts\\css\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "hasWizzifiers": true,
+            "wizzifiers": {
+                "css": {
+                    "name": "css",
+                    "schema": "css",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.css\\.wizzi-override\\lib\\wizzifiers\\css\\wizzifier.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.docs",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.docs",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.docs\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.docs\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "docs": {
+                    "name": "docs",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.docs\\.wizzi-override\\lib\\wizzi\\schemas\\docs\\docs.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "docs/document": {
+                    "name": "docs/document",
+                    "schema": "docs",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.docs\\.wizzi-override\\lib\\artifacts\\docs\\document\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "docs/tohtml": {
+                    "name": "docs/tohtml",
+                    "schema": "docs",
+                    "artifact": "tohtml",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.docs\\.wizzi-override\\lib\\artifacts\\docs\\tohtml\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "docs/extended": {
+                    "name": "docs/extended",
+                    "schema": "docs",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.docs\\.wizzi-override\\lib\\artifacts\\docs\\extended\\trans\\main.js.ittf",
+                    "content": null
+                },
+                "docs/tohast": {
+                    "name": "docs/tohast",
+                    "schema": "docs",
+                    "artifact": "tohast",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.docs\\.wizzi-override\\lib\\artifacts\\docs\\tohast\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.docx",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.docx",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.docx\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.docx\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "docx": {
+                    "name": "docx",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.docx\\.wizzi-override\\lib\\wizzi\\schemas\\docx\\docx.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "docx/document": {
+                    "name": "docx/document",
+                    "schema": "docx",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.docx\\.wizzi-override\\lib\\artifacts\\docx\\document\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "docx/extended": {
+                    "name": "docx/extended",
+                    "schema": "docx",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.docx\\.wizzi-override\\lib\\artifacts\\docx\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.first",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.first",
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.first\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.first\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "first": {
+                    "name": "first",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.first\\.wizzi\\lib\\wizzi\\schemas\\first\\first.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "first/document": {
+                    "name": "first/document",
+                    "schema": "first",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.first\\.wizzi\\lib\\artifacts\\first\\document\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "first/extended": {
+                    "name": "first/extended",
+                    "schema": "first",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.first\\.wizzi\\lib\\artifacts\\first\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.geop",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.geop",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.geop\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.geop\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "geop": {
+                    "name": "geop",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.geop\\.wizzi-override\\lib\\wizzi\\schemas\\geop\\geop.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "geop/document": {
+                    "name": "geop/document",
+                    "schema": "geop",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.geop\\.wizzi-override\\lib\\artifacts\\geop\\document\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "geop/extended": {
+                    "name": "geop/extended",
+                    "schema": "geop",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.geop\\.wizzi-override\\lib\\artifacts\\geop\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.go",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.go",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.go\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.go\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "go": {
+                    "name": "go",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.go\\.wizzi-override\\lib\\wizzi\\schemas\\go\\go.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "go/document": {
+                    "name": "go/document",
+                    "schema": "go",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.go\\.wizzi-override\\lib\\artifacts\\go\\document\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "go/package": {
+                    "name": "go/package",
+                    "schema": "go",
+                    "artifact": "package",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.go\\.wizzi-override\\lib\\artifacts\\go\\package\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "go/extended": {
+                    "name": "go/extended",
+                    "schema": "go",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.go\\.wizzi-override\\lib\\artifacts\\go\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.graphql",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.graphql",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.graphql\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.graphql\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "graphql": {
+                    "name": "graphql",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.graphql\\.wizzi-override\\lib\\wizzi\\schemas\\graphql\\graphql.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "graphql/document": {
+                    "name": "graphql/document",
+                    "schema": "graphql",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.graphql\\.wizzi-override\\lib\\artifacts\\graphql\\document\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "graphql/extended": {
+                    "name": "graphql/extended",
+                    "schema": "graphql",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.graphql\\.wizzi-override\\lib\\artifacts\\graphql\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "hasWizzifiers": true,
+            "wizzifiers": {
+                "graphql": {
+                    "name": "graphql",
+                    "schema": "graphql",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.graphql\\.wizzi-override\\lib\\wizzifiers\\graphql\\wizzifier.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.html",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.html",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.html\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.html\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "html": {
+                    "name": "html",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.html\\.wizzi-override\\lib\\wizzi\\schemas\\html\\html.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "html/document": {
+                    "name": "html/document",
+                    "schema": "html",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.html\\.wizzi-override\\lib\\artifacts\\html\\document\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "html/extended": {
+                    "name": "html/extended",
+                    "schema": "html",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.html\\.wizzi-override\\lib\\artifacts\\html\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "hasWizzifiers": true,
+            "wizzifiers": {
+                "html": {
+                    "name": "html",
+                    "schema": "html",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.html\\.wizzi-override\\lib\\wizzifiers\\html\\wizzifier.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.ittf",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ittf",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ittf\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ittf\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {},
+            "artifacts": {
+                "ittf/document": {
+                    "name": "ittf/document",
+                    "schema": "ittf",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ittf\\.wizzi-override\\lib\\artifacts\\ittf\\document\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "ittf/tojson": {
+                    "name": "ittf/tojson",
+                    "schema": "ittf",
+                    "artifact": "tojson",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ittf\\.wizzi-override\\lib\\artifacts\\ittf\\tojson\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "ittf/cheatsheet": {
+                    "name": "ittf/cheatsheet",
+                    "schema": "ittf",
+                    "artifact": "cheatsheet",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ittf\\.wizzi-override\\lib\\artifacts\\ittf\\cheatsheet\\trans\\main.js.ittf",
+                    "content": null
+                },
+                "ittf/extended": {
+                    "name": "ittf/extended",
+                    "schema": "ittf",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ittf\\.wizzi-override\\lib\\artifacts\\ittf\\extended\\trans\\main.js.ittf",
+                    "content": null
+                },
+                "ittf/html-pretty": {
+                    "name": "ittf/html-pretty",
+                    "schema": "ittf",
+                    "artifact": "html-pretty",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ittf\\.wizzi-override\\lib\\artifacts\\ittf\\html-pretty\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.java",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.java",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.java\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.java\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "java": {
+                    "name": "java",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.java\\.wizzi-override\\lib\\wizzi\\schemas\\java\\java.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "java/document": {
+                    "name": "java/document",
+                    "schema": "java",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.java\\.wizzi-override\\lib\\artifacts\\java\\document\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "java/module": {
+                    "name": "java/module",
+                    "schema": "java",
+                    "artifact": "module",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.java\\.wizzi-override\\lib\\artifacts\\java\\module\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "java/extended": {
+                    "name": "java/extended",
+                    "schema": "java",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.java\\.wizzi-override\\lib\\artifacts\\java\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.js",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.js",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.js\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.js\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "js": {
+                    "name": "js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.js\\.wizzi-override\\lib\\wizzi\\schemas\\js\\js.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "js/document": {
+                    "name": "js/document",
+                    "schema": "js",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.js\\.wizzi\\lib\\artifacts\\js\\document\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "js/module": {
+                    "name": "js/module",
+                    "schema": "js",
+                    "artifact": "module",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.js\\.wizzi-override\\lib\\artifacts\\js\\module\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "js/extended": {
+                    "name": "js/extended",
+                    "schema": "js",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.js\\.wizzi-override\\lib\\artifacts\\js\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "hasWizzifiers": true,
+            "wizzifiers": {
+                "js": {
+                    "name": "js",
+                    "schema": "js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.js\\.wizzi-override\\lib\\wizzifiers\\js\\wizzifier.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.json",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.json",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.json\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.json\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "json": {
+                    "name": "json",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.json\\.wizzi-override\\lib\\wizzi\\schemas\\json\\json.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "json/document": {
+                    "name": "json/document",
+                    "schema": "json",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.json\\.wizzi-override\\lib\\artifacts\\json\\document\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "json/export": {
+                    "name": "json/export",
+                    "schema": "json",
+                    "artifact": "export",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.json\\.wizzi-override\\lib\\artifacts\\json\\export\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "json/toml": {
+                    "name": "json/toml",
+                    "schema": "json",
+                    "artifact": "toml",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.json\\.wizzi-override\\lib\\artifacts\\json\\toml\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "json/toyaml": {
+                    "name": "json/toyaml",
+                    "schema": "json",
+                    "artifact": "toyaml",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.json\\.wizzi-override\\lib\\artifacts\\json\\toyaml\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "json/extended": {
+                    "name": "json/extended",
+                    "schema": "json",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.json\\.wizzi-override\\lib\\artifacts\\json\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "hasWizzifiers": true,
+            "wizzifiers": {
+                "json": {
+                    "name": "json",
+                    "schema": "json",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.json\\.wizzi-override\\lib\\wizzifiers\\json\\wizzifier.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.md",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.md",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.md\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.md\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "md": {
+                    "name": "md",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.md\\.wizzi-override\\lib\\wizzi\\schemas\\md\\md.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "md/document": {
+                    "name": "md/document",
+                    "schema": "md",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.md\\.wizzi-override\\lib\\artifacts\\md\\document\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "md/tocss": {
+                    "name": "md/tocss",
+                    "schema": "md",
+                    "artifact": "tocss",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.md\\.wizzi-override\\lib\\artifacts\\md\\tocss\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "md/tohtml": {
+                    "name": "md/tohtml",
+                    "schema": "md",
+                    "artifact": "tohtml",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.md\\.wizzi-override\\lib\\artifacts\\md\\tohtml\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "md/extended": {
+                    "name": "md/extended",
+                    "schema": "md",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.md\\.wizzi-override\\lib\\artifacts\\md\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "hasWizzifiers": true,
+            "wizzifiers": {
+                "md": {
+                    "name": "md",
+                    "schema": "md",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.md\\.wizzi-override\\lib\\wizzifiers\\md\\wizzifier.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.org",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.org",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.org\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.org\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "org": {
+                    "name": "org",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.org\\.wizzi-override\\lib\\wizzi\\schemas\\org\\org.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "org/document": {
+                    "name": "org/document",
+                    "schema": "org",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.org\\.wizzi-override\\lib\\artifacts\\org\\document\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "org/extended": {
+                    "name": "org/extended",
+                    "schema": "org",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.org\\.wizzi-override\\lib\\artifacts\\org\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.pandoc",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.pandoc",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.pandoc\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.pandoc\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "pandoc": {
+                    "name": "pandoc",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.pandoc\\.wizzi-override\\lib\\wizzi\\schemas\\pandoc\\pandoc.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "pandoc/document": {
+                    "name": "pandoc/document",
+                    "schema": "pandoc",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.pandoc\\.wizzi-override\\lib\\artifacts\\pandoc\\document\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "pandoc/extended": {
+                    "name": "pandoc/extended",
+                    "schema": "pandoc",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.pandoc\\.wizzi-override\\lib\\artifacts\\pandoc\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.pdf",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.pdf",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.pdf\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.pdf\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "pdf": {
+                    "name": "pdf",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.pdf\\.wizzi-override\\lib\\wizzi\\schemas\\pdf\\pdf.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "pdf/document": {
+                    "name": "pdf/document",
+                    "schema": "pdf",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.pdf\\.wizzi-override\\lib\\artifacts\\pdf\\document\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "pdf/extended": {
+                    "name": "pdf/extended",
+                    "schema": "pdf",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.pdf\\.wizzi-override\\lib\\artifacts\\pdf\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.philos",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.philos",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.philos\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.philos\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "philos": {
+                    "name": "philos",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.philos\\.wizzi-override\\lib\\wizzi\\schemas\\philos\\philos.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "philos/document": {
+                    "name": "philos/document",
+                    "schema": "philos",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.philos\\.wizzi-override\\lib\\artifacts\\philos\\document\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "philos/extended": {
+                    "name": "philos/extended",
+                    "schema": "philos",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.philos\\.wizzi-override\\lib\\artifacts\\philos\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.plain",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.plain",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.plain\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.plain\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "plain": {
+                    "name": "plain",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.plain\\.wizzi-override\\lib\\wizzi\\schemas\\plain\\plain.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "plain/document": {
+                    "name": "plain/document",
+                    "schema": "plain",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.plain\\.wizzi\\lib\\artifacts\\plain\\document\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "plain/file": {
+                    "name": "plain/file",
+                    "schema": "plain",
+                    "artifact": "file",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.plain\\.wizzi-override\\lib\\artifacts\\plain\\file\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "plain/extended": {
+                    "name": "plain/extended",
+                    "schema": "plain",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.plain\\.wizzi-override\\lib\\artifacts\\plain\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "hasWizzifiers": true,
+            "wizzifiers": {
+                "plain": {
+                    "name": "plain",
+                    "schema": "plain",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.plain\\.wizzi-override\\lib\\wizzifiers\\plain\\wizzifier.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.ppt",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ppt",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ppt\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ppt\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "ppt": {
+                    "name": "ppt",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ppt\\.wizzi-override\\lib\\wizzi\\schemas\\ppt\\ppt.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "ppt/document": {
+                    "name": "ppt/document",
+                    "schema": "ppt",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ppt\\.wizzi-override\\lib\\artifacts\\ppt\\document\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "ppt/extended": {
+                    "name": "ppt/extended",
+                    "schema": "ppt",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ppt\\.wizzi-override\\lib\\artifacts\\ppt\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.py",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.py",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.py\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.py\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "py": {
+                    "name": "py",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.py\\.wizzi-override\\lib\\wizzi\\schemas\\py\\py.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "py/document": {
+                    "name": "py/document",
+                    "schema": "py",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.py\\.wizzi-override\\lib\\artifacts\\py\\document\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "py/module": {
+                    "name": "py/module",
+                    "schema": "py",
+                    "artifact": "module",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.py\\.wizzi-override\\lib\\artifacts\\py\\module\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "py/extended": {
+                    "name": "py/extended",
+                    "schema": "py",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.py\\.wizzi-override\\lib\\artifacts\\py\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.raml",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.raml",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.raml\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.raml\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "raml": {
+                    "name": "raml",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.raml\\.wizzi-override\\lib\\wizzi\\schemas\\raml\\raml.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "raml/document": {
+                    "name": "raml/document",
+                    "schema": "raml",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.raml\\.wizzi-override\\lib\\artifacts\\raml\\document\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "raml/html_docs": {
+                    "name": "raml/html_docs",
+                    "schema": "raml",
+                    "artifact": "html_docs",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.raml\\.wizzi-override\\lib\\artifacts\\raml\\html_docs\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "raml/js_client": {
+                    "name": "raml/js_client",
+                    "schema": "raml",
+                    "artifact": "js_client",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.raml\\.wizzi-override\\lib\\artifacts\\raml\\js_client\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "raml/nodejs_server": {
+                    "name": "raml/nodejs_server",
+                    "schema": "raml",
+                    "artifact": "nodejs_server",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.raml\\.wizzi-override\\lib\\artifacts\\raml\\nodejs_server\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "raml/extended": {
+                    "name": "raml/extended",
+                    "schema": "raml",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.raml\\.wizzi-override\\lib\\artifacts\\raml\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.rdbms",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.rdbms",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.rdbms\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.rdbms\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "rdbms": {
+                    "name": "rdbms",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.rdbms\\.wizzi-override\\lib\\wizzi\\schemas\\rdbms\\rdbms.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "rdbms/document": {
+                    "name": "rdbms/document",
+                    "schema": "rdbms",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.rdbms\\.wizzi-override\\lib\\artifacts\\rdbms\\document\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "rdbms/html_docs": {
+                    "name": "rdbms/html_docs",
+                    "schema": "rdbms",
+                    "artifact": "html_docs",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.rdbms\\.wizzi-override\\lib\\artifacts\\rdbms\\html_docs\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "rdbms/jsoncrud": {
+                    "name": "rdbms/jsoncrud",
+                    "schema": "rdbms",
+                    "artifact": "jsoncrud",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.rdbms\\.wizzi-override\\lib\\artifacts\\rdbms\\jsoncrud\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "rdbms/jsonmodel": {
+                    "name": "rdbms/jsonmodel",
+                    "schema": "rdbms",
+                    "artifact": "jsonmodel",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.rdbms\\.wizzi-override\\lib\\artifacts\\rdbms\\jsonmodel\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "rdbms/jsonmodel_context": {
+                    "name": "rdbms/jsonmodel_context",
+                    "schema": "rdbms",
+                    "artifact": "jsonmodel_context",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.rdbms\\.wizzi-override\\lib\\artifacts\\rdbms\\jsonmodel_context\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "rdbms/jsonmodel_persister": {
+                    "name": "rdbms/jsonmodel_persister",
+                    "schema": "rdbms",
+                    "artifact": "jsonmodel_persister",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.rdbms\\.wizzi-override\\lib\\artifacts\\rdbms\\jsonmodel_persister\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "rdbms/extended": {
+                    "name": "rdbms/extended",
+                    "schema": "rdbms",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.rdbms\\.wizzi-override\\lib\\artifacts\\rdbms\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.regexp",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.regexp",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.regexp\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.regexp\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "regexp": {
+                    "name": "regexp",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.regexp\\.wizzi-override\\lib\\wizzi\\schemas\\regexp\\regexp.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "regexp/document": {
+                    "name": "regexp/document",
+                    "schema": "regexp",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.regexp\\.wizzi-override\\lib\\artifacts\\regexp\\document\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "regexp/extended": {
+                    "name": "regexp/extended",
+                    "schema": "regexp",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.regexp\\.wizzi-override\\lib\\artifacts\\regexp\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.svg",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.svg",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.svg\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.svg\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "svg": {
+                    "name": "svg",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.svg\\.wizzi-override\\lib\\wizzi\\schemas\\svg\\svg.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "svg/document": {
+                    "name": "svg/document",
+                    "schema": "svg",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.svg\\.wizzi-override\\lib\\artifacts\\svg\\document\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "svg/extended": {
+                    "name": "svg/extended",
+                    "schema": "svg",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.svg\\.wizzi-override\\lib\\artifacts\\svg\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "hasWizzifiers": true,
+            "wizzifiers": {
+                "svg": {
+                    "name": "svg",
+                    "schema": "svg",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.svg\\.wizzi-override\\lib\\wizzifiers\\svg\\wizzifier.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.text",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.text",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.text\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.text\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {},
+            "artifacts": {
+                "text/document": {
+                    "name": "text/document",
+                    "schema": "text",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.text\\.wizzi-override\\lib\\artifacts\\text\\document\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "text/extended": {
+                    "name": "text/extended",
+                    "schema": "text",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.text\\.wizzi-override\\lib\\artifacts\\text\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "hasWizzifiers": true,
+            "wizzifiers": {
+                "text": {
+                    "name": "text",
+                    "schema": "text",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.text\\.wizzi-override\\lib\\wizzifiers\\text\\wizzifier.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.ts",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ts",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ts\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ts\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "ts": {
+                    "name": "ts",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ts\\.wizzi-override\\lib\\wizzi\\schemas\\ts\\ts.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "ts/document": {
+                    "name": "ts/document",
+                    "schema": "ts",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ts\\.wizzi\\lib\\artifacts\\ts\\document\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "ts/module": {
+                    "name": "ts/module",
+                    "schema": "ts",
+                    "artifact": "module",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ts\\.wizzi-override\\lib\\artifacts\\ts\\module\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "ts/extended": {
+                    "name": "ts/extended",
+                    "schema": "ts",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ts\\.wizzi-override\\lib\\artifacts\\ts\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "hasWizzifiers": true,
+            "wizzifiers": {
+                "ts": {
+                    "name": "ts",
+                    "schema": "ts",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.ts\\.wizzi-override\\lib\\wizzifiers\\ts\\wizzifier.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.vtt",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.vtt",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.vtt\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.vtt\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "vtt": {
+                    "name": "vtt",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.vtt\\.wizzi-override\\lib\\wizzi\\schemas\\vtt\\vtt.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "vtt/document": {
+                    "name": "vtt/document",
+                    "schema": "vtt",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.vtt\\.wizzi-override\\lib\\artifacts\\vtt\\document\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "vtt/extended": {
+                    "name": "vtt/extended",
+                    "schema": "vtt",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.vtt\\.wizzi-override\\lib\\artifacts\\vtt\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.vue",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.vue",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.vue\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.vue\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "vue": {
+                    "name": "vue",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.vue\\.wizzi-override\\lib\\wizzi\\schemas\\vue\\vue.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "vue/document": {
+                    "name": "vue/document",
+                    "schema": "vue",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.vue\\.wizzi-override\\lib\\artifacts\\vue\\document\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "vue/extended": {
+                    "name": "vue/extended",
+                    "schema": "vue",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.vue\\.wizzi-override\\lib\\artifacts\\vue\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "hasWizzifiers": true,
+            "wizzifiers": {
+                "vue": {
+                    "name": "vue",
+                    "schema": "vue",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.vue\\.wizzi-override\\lib\\wizzifiers\\vue\\wizzifier.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.wzjob",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzjob",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzjob\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzjob\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "wfjob": {
+                    "name": "wfjob",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzjob\\.wizzi-override\\lib\\wizzi\\schemas\\wfjob\\wfjob.wfschema.ittf",
+                    "content": null
+                },
+                "wzjob": {
+                    "name": "wzjob",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzjob\\.wizzi-override\\lib\\wizzi\\schemas\\wzjob\\wzjob.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "wfjob/document": {
+                    "name": "wfjob/document",
+                    "schema": "wfjob",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzjob\\.wizzi-override\\lib\\artifacts\\wfjob\\document\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "wzjob/document": {
+                    "name": "wzjob/document",
+                    "schema": "wzjob",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzjob\\.wizzi-override\\lib\\artifacts\\wzjob\\document\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "wfjob/extended": {
+                    "name": "wfjob/extended",
+                    "schema": "wfjob",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzjob\\.wizzi-override\\lib\\artifacts\\wfjob\\extended\\trans\\main.js.ittf",
+                    "content": null
+                },
+                "wzjob/extended": {
+                    "name": "wzjob/extended",
+                    "schema": "wzjob",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzjob\\.wizzi-override\\lib\\artifacts\\wzjob\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.wzschema",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzschema",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzschema\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzschema\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {
+                "wfjob": {
+                    "name": "wfjob",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzschema\\.wizzi\\lib\\wizzi\\schemas\\wfjob\\wfjob.wfschema.ittf",
+                    "content": null
+                },
+                "wfschema": {
+                    "name": "wfschema",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzschema\\.wizzi-override\\lib\\wizzi\\schemas\\wfschema\\wfschema.wfschema.ittf",
+                    "content": null
+                },
+                "wzschema": {
+                    "name": "wzschema",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzschema\\.wizzi-override\\lib\\wizzi\\schemas\\wzschema\\wzschema.wfschema.ittf",
+                    "content": null
+                }
+            },
+            "artifacts": {
+                "wfjob/document": {
+                    "name": "wfjob/document",
+                    "schema": "wfjob",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzschema\\.wizzi\\lib\\artifacts\\wfjob\\document\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "wfschema/document": {
+                    "name": "wfschema/document",
+                    "schema": "wfschema",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzschema\\.wizzi-override\\lib\\artifacts\\wfschema\\document\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "wzschema/document": {
+                    "name": "wzschema/document",
+                    "schema": "wzschema",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzschema\\.wizzi-override\\lib\\artifacts\\wzschema\\document\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "wfschema/factory": {
+                    "name": "wfschema/factory",
+                    "schema": "wfschema",
+                    "artifact": "factory",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzschema\\.wizzi-override\\lib\\artifacts\\wfschema\\factory\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "wfschema/html_docs": {
+                    "name": "wfschema/html_docs",
+                    "schema": "wfschema",
+                    "artifact": "html_docs",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzschema\\.wizzi-override\\lib\\artifacts\\wfschema\\html_docs\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "wfschema/json_schemaboot": {
+                    "name": "wfschema/json_schemaboot",
+                    "schema": "wfschema",
+                    "artifact": "json_schemaboot",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzschema\\.wizzi-override\\lib\\artifacts\\wfschema\\json_schemaboot\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "wfschema/model": {
+                    "name": "wfschema/model",
+                    "schema": "wfschema",
+                    "artifact": "model",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzschema\\.wizzi-override\\lib\\artifacts\\wfschema\\model\\gen\\main.js.ittf",
+                    "content": null
+                },
+                "wfschema/test": {
+                    "name": "wfschema/test",
+                    "schema": "wfschema",
+                    "artifact": "test",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzschema\\.wizzi-override\\lib\\artifacts\\wfschema\\test\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "wfjob/extended": {
+                    "name": "wfjob/extended",
+                    "schema": "wfjob",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzschema\\.wizzi\\lib\\artifacts\\wfjob\\extended\\trans\\main.js.ittf",
+                    "content": null
+                },
+                "wfschema/extended": {
+                    "name": "wfschema/extended",
+                    "schema": "wfschema",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzschema\\.wizzi-override\\lib\\artifacts\\wfschema\\extended\\trans\\main.js.ittf",
+                    "content": null
+                },
+                "wzschema/extended": {
+                    "name": "wzschema/extended",
+                    "schema": "wzschema",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzschema\\.wizzi-override\\lib\\artifacts\\wzschema\\extended\\trans\\main.js.ittf",
+                    "content": null
+                },
+                "wfschema/json_docs": {
+                    "name": "wfschema/json_docs",
+                    "schema": "wfschema",
+                    "artifact": "json_docs",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.wzschema\\.wizzi-override\\lib\\artifacts\\wfschema\\json_docs\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.xml",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.xml",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.xml\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.xml\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {},
+            "artifacts": {
+                "xml/document": {
+                    "name": "xml/document",
+                    "schema": "xml",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.xml\\.wizzi-override\\lib\\artifacts\\xml\\document\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "xml/extended": {
+                    "name": "xml/extended",
+                    "schema": "xml",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.xml\\.wizzi-override\\lib\\artifacts\\xml\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "hasWizzifiers": true,
+            "wizzifiers": {
+                "xml": {
+                    "name": "xml",
+                    "schema": "xml",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.xml\\.wizzi-override\\lib\\wizzifiers\\xml\\wizzifier.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        },
+        {
+            "name": "wizzi.plugin.yaml",
+            "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.yaml",
+            "hasWizziOverride": true,
+            "wizziConfigFiles": [
+                {
+                    "name": "wizzi.config.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.yaml\\wizzi.config.js",
+                    "content": null
+                },
+                {
+                    "name": "wizzi.config.override.js",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.yaml\\wizzi.config.override.js",
+                    "content": null
+                }
+            ],
+            "isPlugin": true,
+            "schemas": {},
+            "artifacts": {
+                "yaml/document": {
+                    "name": "yaml/document",
+                    "schema": "yaml",
+                    "artifact": "document",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.yaml\\.wizzi-override\\lib\\artifacts\\yaml\\document\\gen\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "transformations": {
+                "yaml/extended": {
+                    "name": "yaml/extended",
+                    "schema": "yaml",
+                    "artifact": "extended",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.yaml\\.wizzi-override\\lib\\artifacts\\yaml\\extended\\trans\\main.js.ittf",
+                    "content": null
+                }
+            },
+            "hasWizzifiers": true,
+            "wizzifiers": {
+                "yaml": {
+                    "name": "yaml",
+                    "schema": "yaml",
+                    "fullPath": "C:\\My\\wizzi\\stfnbssl\\wizzi.plugins\\packages\\wizzi.plugin.yaml\\.wizzi-override\\lib\\wizzifiers\\yaml\\wizzifier.js.ittf",
+                    "content": null
+                }
+            },
+            "isMetaPlugin": false
+        }
+    ]
+}

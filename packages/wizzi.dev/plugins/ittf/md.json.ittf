@@ -12,15 +12,17 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ BuildVars
         {
             name "useMarkdownParser"
             value "true"
+            type "boolean"
         {
             name "useDomPurify"
-            value "true"
+            value "boolean"
 
     [ Schemas
         {

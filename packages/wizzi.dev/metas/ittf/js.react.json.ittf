@@ -13,6 +13,7 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ globals
@@ -20,10 +21,34 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
+
+    [ Categories
+        {
+            name "javascript"
+        {
+            name "react"
 
     [ Productions
         {
+            name "${md.prefix}"
+        {
+            name "${md.prefix}App"
+            isPackageMain true
+            [ categories
+                {
+                    name "javascript"
+                {
+                    name "react"
+        {
             name "${md.prefix}WebpackGetStartedApp"
+            [ categories
+                {
+                    name "javascript"
+                {
+                    name "react"
+                {
+                    name "webpack"
         {
             name "${md.prefix}Utils"

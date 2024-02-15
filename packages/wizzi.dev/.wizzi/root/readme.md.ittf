@@ -4,12 +4,10 @@ md
     p ${wzCtx.description}
     br
     h2 Features
-    $hook
+    p Wizzi.dev is an utility package for generating new Wizzi packages from Wizzi meta plugins.
+        \b In its folders (metas, plugins, packages ...) you can write the wizzi.meta.config files that 
+        \b contain the properties of the package to be generated.
     br
-    p You can find a few samples in the /examples folder, but you can find more in the
-        a demo package
-            href https://github.com/wizzifactory/wizzi/tree/master/packages/wizzi-demo/.wizzi/ittf/examples/advanced/plugins
-        span .
     h2 Source and generation
     p ${wzCtx.name} is generated using Wizzi.
     br

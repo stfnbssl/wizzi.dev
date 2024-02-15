@@ -1,0 +1,38 @@
+{
+
+    $
+        var md = {
+            name: "wizzi.plugin.utils",
+            npmName: null,
+            title: "Utilities and scripts for the wizzi.plugins packages"
+        }
+
+    base-package( &md )
+
+    params/use( jsCLI
+    params/use( jsCommons
+    params/use( jsNodeScripts
+    params/use( wizziFactory
+        [ plugins
+            "ittf"
+            "js"
+            "ts"
+            "json"
+        pluginsBaseFolder "C:/My/wizzi/stfnbssl/wizzi.plugins/packages"        
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$
+

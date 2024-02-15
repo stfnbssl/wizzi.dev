@@ -12,12 +12,14 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ BuildVars
         {
             name "usePdfmake"
             value "true"
+            type "boolean"
 
     [ Schemas
         {

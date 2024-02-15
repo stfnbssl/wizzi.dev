@@ -13,6 +13,7 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ globals
@@ -20,50 +21,189 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
+
+    [ Categories
+        {
+            name "typescript"
+        {
+            name "react"
 
     [ Productions
         {
             name "${md.prefix}"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
         {
             name "${md.prefix}App"
             isPackageMain true
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "app"
         {
             name "${md.prefix}Assets"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "asset"
         {
             name "${md.prefix}BasicWebpack"
             isPackageMain true
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "webpack"
+                {
+                    name "starter"
         {
             name "${md.prefix}BasicVite"
             isPackageMain true
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "vite"
         {
             name "${md.prefix}Components"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "component"
         {
             name "${md.prefix}Editor"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "editor"
         {
             name "${md.prefix}Features"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "features"
         {
             name "${md.prefix}NextjsApp"
             isPackageMain true
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "nextjs"
         {
             name "${md.prefix}PageForms"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
         {
             name "${md.prefix}Redux"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "redux"
         {
             name "${md.prefix}SiteWebpack"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "webpack"
         {
             name "${md.prefix}Storyboard"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "storyboard"
         {
             name "${md.prefix}Themes"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "theme"
         {
             name "${md.prefix}Typings"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
         {
             name "${md.prefix}Utils"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "utilities"
         {
             name "${md.prefix}WebpackGetStartedApp"
             isPackageMain true
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "webpack"
         {
             name "${md.prefix}WebpackWidgetsApp"
             isPackageMain true
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "webpack"
+                {
+                    name "widgets"
         {
             name "${md.prefix}Widgets"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "widgets"
+

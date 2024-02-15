@@ -12,15 +12,18 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ BuildVars
         {
             name "useBabelParser"
             value "true"
+            type "boolean"
         {
             name "useBabelParserTypescript"
             value "true"
+            type "boolean"
 
     [ Schemas
         {

@@ -12,12 +12,14 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ BuildVars
         {
             name "useYamlParser"
             value "true"
+            type "boolean"
 
     [ Schemas
         {

@@ -9,29 +9,22 @@
     base-meta( &md )
 
     [ globals
-        $*
         {
-            name "___"
-            value "___"
-        *$
+            name "global1"
+            value "valueOfGlobal1"
+            type "string"
 
     [ BuildVars
-        $*
         {
-            name "___"
-            value "___"
-        *$
+            name "buildVar1"
+            value "valueOfBuildVar1"
+            type "string"
 
+    [ Categories
+        {
+            name "wizzi-lab"
+    
     [ Productions
         {
-            name "${md.prefix}Html"
-            isPackageMain true
-        {
-            name "${md.prefix}Js"
-            isPackageMain true
-        {
-            name "${md.prefix}Ts"
-            isPackageMain true
-        {
-            name "${md.prefix}Wizzi"
+            name "${md.prefix}Production1"
             isPackageMain true

@@ -13,6 +13,7 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ globals
@@ -20,13 +21,31 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
+
+    [ Categories
+        {
+            name "javascript"
 
     [ Productions
         {
             name "${md.prefix}CLI"
             isPackageMain true
+            [ categories
+                {
+                    name "javascript"
+                {
+                    name "CLI"
         {
             name "${md.prefix}Commons"
+            [ categories
+                {
+                    name "javascript"
         {
             name "${md.prefix}Utils"
+            [ categories
+                {
+                    name "javascript"
+                {
+                    name "utilities"

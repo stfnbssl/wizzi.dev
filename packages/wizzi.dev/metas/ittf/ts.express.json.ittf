@@ -13,6 +13,7 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ globals
@@ -20,59 +21,276 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
+    [ Categories
+        {
+            name "typescript"
+        {
+            name "express"
 
     [ Productions
         {
             name "${md.prefix}"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
         {
             name "${md.prefix}App"
             isPackageMain true
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
+                {
+                    name "webapp"
         {
             name "${md.prefix}Data"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
         {
             name "${md.prefix}FeatureAccount"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
+                {
+                    name "feature"
+                {
+                    name "account"
         {
             name "${md.prefix}FeatureAuth"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
+                {
+                    name "feature"
+                {
+                    name "auth"
         {
             name "${md.prefix}FeatureBlog"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
+                {
+                    name "feature"
+                {
+                    name "blog"
         {
             name "${md.prefix}FeatureConfig"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
+                {
+                    name "feature"
+                {
+                    name "config"
         {
             name "${md.prefix}FeatureCdn"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
+                {
+                    name "feature"
+                {
+                    name "cdn"
         {
             name "${md.prefix}FeatureFilesystem"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
+                {
+                    name "feature"
+                {
+                    name "filesystem"
         {
             name "${md.prefix}FeatureGithub"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
+                {
+                    name "feature"
+                {
+                    name "github"
         {
             name "${md.prefix}FeaturePacki"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
+                {
+                    name "feature"
+                {
+                    name "packi"
         {
             name "${md.prefix}FeatureProject"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
+                {
+                    name "feature"
+                {
+                    name "project"
         {
             name "${md.prefix}FeatureRepo"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
+                {
+                    name "feature"
+                {
+                    name "repo"
         {
             name "${md.prefix}FeatureUser"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
+                {
+                    name "feature"
+                {
+                    name "user"
         {
             name "${md.prefix}FeatureWizzi"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
+                {
+                    name "feature"
+                {
+                    name "wizzi"
         {
             name "${md.prefix}FeatureWizziDocs"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
+                {
+                    name "feature"
+                {
+                    name "wizzi"
+                {
+                    name "documentation"
         {
             name "${md.prefix}FeatureWizziFs"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
+                {
+                    name "feature"
+                {
+                    name "wizzi"
+                {
+                    name "filesystem"
         {
             name "${md.prefix}FeatureWizziGist"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
+                {
+                    name "feature"
+                {
+                    name "wizzi"
+                {
+                    name "gist"
         {
             name "${md.prefix}FeatureWizziMeta"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
+                {
+                    name "feature"
+                {
+                    name "wizzi"
+                {
+                    name "meta"
         {
             name "${md.prefix}FeatureWizziProduction"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
+                {
+                    name "feature"
+                {
+                    name "wizzi"
+                {
+                    name "wizzi-production"
         {
             name "${md.prefix}Ittf"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "ittf"
         {
             name "${md.prefix}Styles"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "styles"
         {
             name "${md.prefix}Tests"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
+                {
+                    name "tests"
         {
             name "${md.prefix}Utils"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "utilities"
         {
             name "${md.prefix}WizziSite"
             $$ A WizziSite uses views rendered by the WizziViewEngine
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
+                {
+                    name "wizzi"
+                {
+                    name "view-engine"

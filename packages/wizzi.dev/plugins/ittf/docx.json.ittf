@@ -12,12 +12,14 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ BuildVars
         {
             name "useDocx"
             value "true"
+            type "string"
 
     [ Schemas
         {

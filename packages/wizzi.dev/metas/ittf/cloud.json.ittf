@@ -13,6 +13,7 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
 
     [ globals
@@ -20,10 +21,21 @@
         {
             name "___"
             value "___"
+            type "string"
         *$
+
+    [ Categories
+        {
+            name "cloud"
 
     [ Productions
         {
             name "${md.prefix}Azure"
+            [ categories
+                {
+                    name "cloud"
         {
             name "${md.prefix}Heroku"
+            [ categories
+                {
+                    name "cloud"

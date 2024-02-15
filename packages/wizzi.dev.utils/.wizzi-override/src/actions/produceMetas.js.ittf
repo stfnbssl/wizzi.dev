@@ -1,0 +1,42 @@
+module
+    kind es6
+    const path = require("path")
+    const spawnUtils = require("../services/spawn")
+    +
+    $include metas
+    +
+    function doProductions
+        param ndx
+        var metaName = metaList[ndx]
+        if !metaName
+            success "All meta productions done"
+            return
+        _ produceMeta
+            @ metaName
+            a_cb()
+                success "*** Meta productions " + metaName + " DONE ***"
+                _ doProductions
+                    @ ndx + 1
+    _ doProductions
+        @ 0
+
+    function produceMeta
+        param metaName
+        param callback
+        log 'Starting production of ', metaName
+        const PowerShell = spawnUtils.PowerShell
+        let ps
+            new PowerShell
+                @ "wz meta meta." + metaName
+                {
+                    @ cwd "C:/My/wizzi/stfnbssl/wizzi.dev/packages/wizzi.dev/metas"
+        _ spawnUtils.psOutput
+            @ ps
+            {
+            =>
+                param err
+                param stdout
+                param stderr
+                log "powershell 2", err || stderr || stdout
+                _ callback
+                    @ null

@@ -2,7 +2,7 @@ $group
     $params &md
 
     name "wizzi.meta.${md.name}"
-    npnName "@wizzi/meta.${md.name}"
+    npmName "@wizzi/meta.${md.name}"
     description "Wizzi meta plugin for creating wizzi ${md.title.toLowerCase()} packages"
     version "0.0.1"
     usePackageVersion true

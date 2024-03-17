@@ -33,10 +33,16 @@
     [ Productions
         {
             name "${md.prefix}Js"
+            [ categories
+                {
+                    name "demo"
+                {
+                    name "wizzi-starter"
             { hints
                 [ folders
                     {
-                        name "index"
+                        name "root"
+
                         schema "js"
         $*
         {

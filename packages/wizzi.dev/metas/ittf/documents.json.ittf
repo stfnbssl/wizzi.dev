@@ -1,7 +1,7 @@
 {
     $
         var md = {
-            name: "douments",
+            name: "documents",
             title: "Documents",
             prefix: "documents"
         }
@@ -41,12 +41,16 @@
                 {
                     name "documents"
                 {
+                    name "documents-words"
+                {
                     name "word"           
         {
             name "${md.prefix}HtmlSlide"
             [ categories
                 {
                     name "documents"
+                {
+                    name "documents-html"
                 {
                     name "html"           
         {
@@ -55,6 +59,8 @@
                 {
                     name "documents"
                 {
+                    name "documents-json"
+                {
                     name "json"           
         {
             name "${md.prefix}Pdf"
@@ -62,12 +68,16 @@
                 {
                     name "documents"
                 {
+                    name "documents-pdf"
+                {
                     name "pdf"           
         {
             name "${md.prefix}Ppt"
             [ categories
                 {
                     name "documents"
+                {
+                    name "documents-powerpoint"
                 {
                     name "powerpoint"           
         {

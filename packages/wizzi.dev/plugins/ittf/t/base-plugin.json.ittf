@@ -2,16 +2,25 @@ $group
     $params &md
 
     name "wizzi.plugin.${md.name}"
-    npnName "@wizzi/plugin.${md.name}"
-    description "Wizzi plugin for ${md.title}"
-    version "0.0.1"
+    $if md.npnName
+        npmame "${md.npnName}"
+    $else
+        npmName "@wizzi/plugin.${md.name}"
+    $if md.description
+        description "${md.description}"
+    $else
+        description "Wizzi plugin for ${md.title}"
+    $if md.version
+        version "${md.version}"
+    $else
+        version "0.0.1"
     usePackageVersion true        
     { author
         name "Stefano Bassoli"
         email "stfn.bssl@gmail.com"
     { license
-        type "MIT"
-        copy "copy 2023"
+        name "MIT"
+        copy "copy 2024"
     { github
         userid "stfnbssl"
     

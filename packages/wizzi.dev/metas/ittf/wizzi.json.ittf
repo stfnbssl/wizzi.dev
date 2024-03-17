@@ -52,6 +52,8 @@
                 {
                     name "wizzi"
                 {
+                    name "plugin"
+                {
                     name "wizzi-plugin"
         {
             name "${md.prefix}Meta"
@@ -61,4 +63,19 @@
                     name "wizzi"
                 {
                     name "wizzi-meta"
-
+        {
+            name "${md.prefix}HubStarters"
+            [ categories
+                {
+                    name "wizzi"
+                {
+                    name "wizzi-hub"
+        {
+            name "${md.prefix}Tutors"
+            [ categories
+                {
+                    name "wizzi"
+                {
+                    name "tutorial"
+                {
+                    name "wizzi-tutorial"

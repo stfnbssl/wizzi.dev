@@ -1,7 +1,7 @@
 /*
     artifact generator: C:\My\wizzi\stfnbssl\wizzi.plugins\packages\wizzi.plugin.js\lib\artifacts\js\module\gen\main.js
     package: wizzi-js@
-    primary source IttfDocument: C:\My\wizzi\stfnbssl\wizzi.dev\packages\wizzi.dev\.wizzi\metas\wizzi.meta.config.meta.documents.js.ittf
+    primary source IttfDocument: C:\My\wizzi\stfnbssl\wizzi.dev\packages\wizzi.dev\.wizzi\plugins\wizzi.meta.config.plugin.wfschema.js.ittf
     utc time: Sat, 16 Mar 2024 10:01:19 GMT
 */
 'use strict';
@@ -13,9 +13,9 @@ const path = require('path');
 // const args = minimist(process.argv.slice(2))
 
 module.exports = {
-    meta: "meta-meta-documents", 
-    metaCtxPath: path.join(__dirname, 'ittf', 'documents.json.ittf'), 
-    destPath: "C:/My/wizzi/stfnbssl/wizzi.metas/packages/wizzi.meta.documents", 
+    meta: "meta-plugin-wfschema", 
+    metaCtxPath: path.join(__dirname, "ittf", "wfschema.json.ittf"), 
+    destPath: "C:/My/wizzi/stfnbssl/wizzi.plugins/packages/wizzi.plugin.wfschema", 
     plugins: [
         "./wizzi.plugin.html/index", 
         "./wizzi.plugin.js/index", 

@@ -27,6 +27,7 @@ $group
             "js"
             "json"
             "md"
+            "svg"
             "text"
             "wzjob"
 

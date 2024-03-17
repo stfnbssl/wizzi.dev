@@ -1,0 +1,9 @@
+module
+    kind es6
+
+    $
+        var md = {
+            name: 'wfschema'
+        };
+
+    base-meta-plugin-config( &md )

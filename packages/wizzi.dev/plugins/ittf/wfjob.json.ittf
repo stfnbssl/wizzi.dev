@@ -1,8 +1,8 @@
 {
     $
         var md = {
-            name: "wzjob",
-            npmName: "@wizzi/plugin.wzjob",
+            name: "wfjob",
+            npmName: "@wizzi/plugin.wfjob",
             description: "Wizzi Job Definition"
         }
     

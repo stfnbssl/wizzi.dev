@@ -1,0 +1,49 @@
+{
+    $
+        var md = {
+            name: "dart",
+            description: "Dart language"
+        }
+    
+    base-plugin( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$
+
+    [ Schemas
+        {
+            name "${md.name}"
+            plugin_type "syntax_structure"
+            hasNamespaces false
+            hasTextContents false
+            hasWizzifier true
+            { wizzifier
+                [ parserImportCode
+                    "var ${md.name}_parser = require('./parser')"
+                [ parserInvokeCode
+                    " _ ${md.name}_parser.parse(tobeWizzified)"
+                useFormatAstMethods false
+            [ includes
+            [ transformers
+            [ artifacts
+                {
+                    name "module"
+                    outmime "${md.name}"
+                    contentType "text/${md.name}"
+                    isDefault true
+            [ fileExtensions
+                "${md.name}"
+

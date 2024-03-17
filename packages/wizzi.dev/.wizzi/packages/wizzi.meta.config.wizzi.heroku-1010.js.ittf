@@ -1,0 +1,10 @@
+module
+    kind es6
+
+    $
+        var md = {
+            name: 'wizzi.heroku-1010',
+            outputPath: 'C:/My/wizzi/stfnbssl/wizzi.apps/packages/wizzi.heroku-1010'
+        };
+
+    base-meta-package-config( &md )

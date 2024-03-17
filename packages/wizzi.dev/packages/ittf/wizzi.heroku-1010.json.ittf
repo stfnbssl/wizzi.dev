@@ -2,12 +2,12 @@
 
     $
         var md = {
-            name: "wizzi.studio",
-            title: "Wizzi studio express backend"
+            name: "wizzi.heroku-1010",
+            title: "Wizzi hub website"
         }
         var isLocal = true; 
         var isProduction = false;
-        var port = 5100;
+        var port = 5110;
         var useSslCert = false;
         var useSsl = isLocal ? false : true;
         var http = useSsl ? 'https' : 'http';
@@ -80,22 +80,26 @@
             "./wizzi.plugin.xml/index.js"
             "./wizzi.plugin.yaml/index.js"
         pluginsBaseFolder 'C:/My/wizzi/stfnbssl/wizzi.plugins/packages'
+        params/use( wizziDocs
         params/use( wizziFs
-        params/use( wizziGist
-        params/use( wizziMeta
+        $if false
+            params/use( wizziGist
+            params/use( wizziMeta
             [ metaPlugins
             metaPluginsBaseFolder 'C:/My/wizzi/stfnbssl/wizzi.metas/packages'
         params/use( wizziProduction
-        params/use( wizziCdn
+        $if false
+            params/use( wizziCdn
 
-    $*
-    params/use( tsExpressFeatureWizziDocs
+    $if false
+        params/use( tsExpressFeatureWizziDocs
     params/use( tsExpressWizziSite
         params/use( demoHome
-        params/use( demoWizzi
+        $if false
+            params/use( demoWizzi
         params/use( wizziDocs
-        params/use( packiProductions
-    *$
+        $if false
+            params/use( packiProductions
     params/use( tsDbMongoDb
         $if false
             params/use( featureTables
@@ -143,11 +147,12 @@
                             { 
                                 name "field2"
                                 type "string"
+    
+    params/use( webHtml
     $if false
-        params/use( webHtml
         params/use( webIttfSite
         params/use( webIttfStudioMeta
-        params/use( webWizziDocs
+    params/use( webWizziDocs
 
     [ features
         $if false

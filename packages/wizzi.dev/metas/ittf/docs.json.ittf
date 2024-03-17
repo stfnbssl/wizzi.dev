@@ -31,11 +31,46 @@
     [ Productions
         {
             name "${md.prefix}Html"
+            [ categories
+                {
+                    name "html"
+                {
+                    name "documentation"
+                {
+                    name "documentation.html"
         {
             name "${md.prefix}Markdown"
+            [ categories
+                {
+                    name "markdown"
+                {
+                    name "documentation"
+                {
+                    name "documentation.markdown"
         {
             name "${md.prefix}Pdf"
+            [ categories
+                {
+                    name "pdf"
+                {
+                    name "documentation"
+                {
+                    name "documentation.markdown"
         {
             name "${md.prefix}Ppt"
+            [ categories
+                {
+                    name "powerpoint"
+                {
+                    name "documentation"
+                {
+                    name "documentation.powerpoint"
         {
             name "${md.prefix}Word"
+            [ categories
+                {
+                    name "word"
+                {
+                    name "documentation"
+                {
+                    name "documentation.word"

@@ -2,7 +2,8 @@
     $
         var md = {
             name: "wzschema",
-            description: "Wzschema document"
+            npmName: "@wizzi/plugin.wzschema",
+            description: "Wizzi Schema Definition"
         }
     
     base-plugin( &md )
@@ -23,25 +24,9 @@
             type "string"
         *$
 
-
     [ Schemas
         {
             name "${md.name}"
-            plugin_type "syntax_structure"
-            [ includes
-                {
-                    Name "Js"
-                    name "js"
-                    artifactName "js/module"
-                    [ options
-                    [ items
-                        {
-                            name "js"
-                            parent "node"
-                            tag "::script"
-                            root "module"
-        {
-            name "wfschema"
             plugin_type "syntax_structure"
             [ includes
                 {
@@ -85,6 +70,6 @@
                     outmime "json"
                     contentType "application/json"
             [ fileExtensions
-                "wfschema"                    
+                "wzschema"
             
 

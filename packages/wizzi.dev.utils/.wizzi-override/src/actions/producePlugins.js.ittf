@@ -1,0 +1,42 @@
+module
+    kind es6
+    const path = require("path")
+    const spawnUtils = require("../services/spawn")
+    +
+    $include plugins
+    +
+    function doProductions
+        param ndx
+        var pluginName = pluginList[ndx]
+        if !pluginName
+            success "All plugin productions done"
+            return
+        _ producePlugin
+            @ pluginName
+            a_cb()
+                success "*** Plugin productions " + pluginName + " DONE ***"
+                _ doProductions
+                    @ ndx + 1
+    _ doProductions
+        @ 0
+
+    function producePlugin
+        param pluginName
+        param callback
+        log 'Starting production of ', pluginName
+        const PowerShell = spawnUtils.PowerShell
+        let ps
+            new PowerShell
+                @ "wz meta plugin." + pluginName
+                {
+                    @ cwd "C:/My/wizzi/stfnbssl/wizzi.dev/packages/wizzi.dev/plugins"
+        _ spawnUtils.psOutput
+            @ ps
+            {
+            =>
+                param err
+                param stdout
+                param stderr
+                log "powershell 2", err || stderr || stdout
+                _ callback
+                    @ null

@@ -1,0 +1,22 @@
+$group
+
+    const pluginList
+        [
+            $if true
+                @ "css"
+                @ "docx"
+                @ "html"
+                @ "ittf"
+                @ "js"
+                @ "json"
+                @ "md"
+                @ "pdf"
+                @ "ppt"
+                @ "svg"
+                @ "text"
+                @ "ts"
+                @ "vtt"
+                $$ NO @ "wfjob"
+                $$ NO @ "wfschema"
+                @ "xml"
+                @ "yaml"

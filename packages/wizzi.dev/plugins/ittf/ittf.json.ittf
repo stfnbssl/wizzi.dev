@@ -26,10 +26,12 @@
     [ Schemas
         {
             name "${md.name}"
+            rootTag "@@any"
             plugin_type "data"
             multiLineCommentBegin "${'$'}*"
             multiLineCommentEnd "*${'$'}"
             hasBuiltinWizziModel true
+            hasCheatsheetFolder true
             [ includes
             [ transformers
                 {

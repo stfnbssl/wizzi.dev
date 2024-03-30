@@ -1,8 +1,8 @@
 {
     $
         var md = {
-            name: "c",
-            description: "C language"
+            name: "css",
+            description: "Css language"
         }
     
     base-plugin( &md )
@@ -22,6 +22,7 @@
             type "boolean"
         {
             name "usePostCss"
+            value "true"
             type "boolean"
     
     [ Schemas
@@ -33,6 +34,7 @@
             multiLineCommentBegin "/*"
             multiLineCommentEnd "*/"
             hasWizzifier true
+            hasCheatsheetFolder true
             { wizzifier
                 [ parserImportCode
                     "var ${md.name}_parser = require('${md.name}/language/parser')"

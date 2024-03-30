@@ -24,4 +24,7 @@
             {
                 name "meta:produce"
                 action "node src/actions/produceMetas"
+            {
+                name "plugin:produce"
+                action "node src/actions/producePlugins"
 

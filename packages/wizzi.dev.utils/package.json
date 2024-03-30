@@ -14,7 +14,8 @@
     ],
     "main": "",
     "scripts": {
-        "meta:produce": "node src/actions/produceMetas"
+        "meta:produce": "node src/actions/produceMetas",
+        "plugin:produce": "node src/actions/producePlugins"
     },
     "dependencies": {
         "async": "^3.2.4",

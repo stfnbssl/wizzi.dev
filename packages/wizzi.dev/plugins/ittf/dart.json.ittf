@@ -26,6 +26,7 @@
     [ Schemas
         {
             name "${md.name}"
+            rootTag "module"
             plugin_type "syntax_structure"
             hasNamespaces false
             hasTextContents false

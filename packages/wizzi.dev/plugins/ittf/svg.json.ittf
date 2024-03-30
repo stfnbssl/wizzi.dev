@@ -28,6 +28,7 @@
             multiLineCommentBegin "<!--"
             multiLineCommentEnd "-->"
             hasWizzifier true
+            hasCheatsheetFolder true
             { wizzifier
                 [ parserImportCode
                     "var xml2js = require('xml2js')"

@@ -1,8 +1,8 @@
 {
     $
         var md = {
-            name: "wzschema",
-            npmName: "@wizzi/plugin.wzschema",
+            name: "wfschema",
+            npmName: "@wizzi/plugin.wfschema",
             description: "Wizzi Schema Definition"
         }
     
@@ -71,6 +71,6 @@
                     outmime "json"
                     contentType "application/json"
             [ fileExtensions
-                "wzschema"
+                "wfschema"
             
 

@@ -22,6 +22,7 @@
             type "boolean"
         {
             name "useBabelParserJs"
+            value "true"
             type "boolean"
 
     [ Schemas
@@ -35,6 +36,7 @@
             multiLineCommentBegin "/*"
             multiLineCommentEnd "*/"
             hasWizzifier true
+            hasCheatsheetFolder true
             { wizzifier
                 [ parserImportCode
                     "var ${md.name}_parser = require('@babel/parser')"

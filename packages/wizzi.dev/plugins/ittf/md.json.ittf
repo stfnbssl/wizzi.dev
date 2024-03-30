@@ -22,7 +22,8 @@
             type "boolean"
         {
             name "useDomPurify"
-            value "boolean"
+            value "true"
+            type "boolean"
 
     [ Schemas
         {
@@ -33,6 +34,7 @@
             multiLineCommentBegin "###"
             multiLineCommentEnd "###"
             hasWizzifier true
+            hasCheatsheetFolder true
             { wizzifier
                 [ parserImportCode
                     "var md_parser = require('marked')"

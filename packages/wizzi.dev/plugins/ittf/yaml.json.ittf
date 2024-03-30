@@ -25,10 +25,12 @@
         {
             name "${md.name}"
             plugin_type "data"
+            rootTag "{|["
             multiLineCommentBegin false
             multiLineCommentEnd false
             hasWizzifier true
             hasBuiltinWizziModel true
+            hasCheatsheetFolder true
             { wizzifier
                 [ parserImportCode
                     "var ${md.name}_parser = require('js-yaml')"

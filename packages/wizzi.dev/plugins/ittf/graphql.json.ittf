@@ -28,6 +28,7 @@
             hasNamespaces false
             hasTextContents false
             hasWizzifier true
+            hasCheatsheetFolder true
             { wizzifier
                 [ parserImportCode
                     "var graphql_parser = require('graphql/language/parser')"

@@ -50,6 +50,10 @@
                     outmime "json"
             [ artifacts
                 {
+                    name "factory"
+                    outmime "js"
+                    contentType "text/javascript"
+                {
                     name "model"
                     outmime "js"
                     isDefault true
@@ -59,13 +63,13 @@
                     outmime "html"
                     contentType "text/html"
                 {
-                    name "factory"
+                    name "test"
                     outmime "js"
                     contentType "text/javascript"
                 {
-                    name "text"
-                    outmime "js"
-                    contentType "text/javascript"
+                    name "json_docs"
+                    outmime "json"
+                    contentType "application/json"
                 {
                     name "json_schemaboot"
                     outmime "json"

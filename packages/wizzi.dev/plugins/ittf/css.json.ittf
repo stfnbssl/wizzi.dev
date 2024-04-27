@@ -1,4 +1,6 @@
 {
+    $include plugins/versions
+
     $
         var md = {
             name: "css",
@@ -45,6 +47,7 @@
                 {
                     Name "Svg"
                     name "svg"
+                    version "${versions['@wizzi/plugin.svg']}"
                     artifactName "svg/document"
                     [ options
                     [ items

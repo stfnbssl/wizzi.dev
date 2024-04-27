@@ -4,6 +4,8 @@ $group
         [
             $if true
                 @ "css"
+                $$*
+                @ "graphql"
                 @ "docx"
                 @ "html"
                 @ "ittf"
@@ -16,7 +18,10 @@ $group
                 @ "text"
                 @ "ts"
                 @ "vtt"
+                $$$*$
                 $$ NO @ "wfjob"
                 $$ NO @ "wfschema"
+                $$*
                 @ "xml"
                 @ "yaml"
+                $$*$

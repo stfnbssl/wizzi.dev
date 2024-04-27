@@ -39,6 +39,5 @@ $group
             "yaml"
 
     params/use( commonsGit
-    params/use( commonsPackage
     params/use( commonsWizzi
         useJsCommons false

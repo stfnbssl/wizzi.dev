@@ -1,4 +1,5 @@
 {
+    $include plugins/versions
     $
         var md = {
             name: "md",
@@ -49,6 +50,7 @@
                     Name "Html"
                     name "html"
                     artifactName "html/document"
+                    version "${versions['@wizzi/plugin.html']}"
                     [ options
                     [ items
                         {
@@ -59,6 +61,7 @@
                 {
                     Name "Css"
                     name "css"
+                    version "${versions['@wizzi/plugin.css']}"
                     artifactName "css/document"
                     [ options
                     [ items
@@ -67,9 +70,11 @@
                             parent "element"
                             tag "::css"
                             root "css"
+                    
                 {
                     Name "Json"
                     name "json"
+                    version "${versions['@wizzi/plugin.json']}"
                     artifactName "json/document"
                     [ options
                     [ items
@@ -78,7 +83,6 @@
                             parent "element"
                             tag "::json"
                             root "{"
-
             [ transformers
             [ artifacts
                 {

@@ -35,6 +35,7 @@ $group
                 @ "./wizzi.meta.ts.express/index"
                 @ "./wizzi.meta.ts.nextjs/index"
                 @ "./wizzi.meta.ts.react/index"
+                @ "./wizzi.meta.ts.remix/index"
                 @ "./wizzi.meta.ts.db/index"
                 @ "./wizzi.meta.web/index"
                 @ "./wizzi.meta.wizzi/index"

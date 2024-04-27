@@ -1,7 +1,7 @@
 /*
     artifact generator: C:\My\wizzi\stfnbssl\wizzi.plugins\packages\wizzi.plugin.js\lib\artifacts\js\module\gen\main.js
     package: @wizzi/plugin.js@0.8.9
-    primary source IttfDocument: C:\My\wizzi\stfnbssl\wizzi.dev\packages\wizzi.dev\.wizzi\plugins\wizzi.meta.config.plugin.pandoc.js.ittf
+    primary source IttfDocument: C:\My\wizzi\stfnbssl\wizzi.dev\packages\wizzi.dev\.wizzi\metas\wizzi.meta.config.meta.ts.remix.js.ittf
     utc time: Fri, 26 Apr 2024 12:09:00 GMT
 */
 'use strict';
@@ -13,9 +13,9 @@ const path = require('path');
 // const args = minimist(process.argv.slice(2))
 
 module.exports = {
-    meta: "meta-plugin-pandoc", 
-    metaCtxPath: path.join(__dirname, "ittf", "pandoc.json.ittf"), 
-    destPath: "C:/My/wizzi/stfnbssl/wizzi.plugins/packages/wizzi.plugin.pandoc", 
+    meta: "meta-meta-ts-remix", 
+    metaCtxPath: path.join(__dirname, 'ittf', 'ts.remix.json.ittf'), 
+    destPath: "C:/My/wizzi/stfnbssl/wizzi.metas/packages/wizzi.meta.ts.remix", 
     plugins: [
         "./wizzi.plugin.html/index", 
         "./wizzi.plugin.js/index", 

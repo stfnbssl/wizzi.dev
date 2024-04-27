@@ -1,0 +1,28 @@
+{
+
+    $
+        var md = {
+            name: "ts.remix.starter",
+            title: "Typescript Remix starter App"
+        }
+
+    base-package-v2( &md )
+    
+    params/use( tsCommons
+    params/use( tsRemixApp
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$

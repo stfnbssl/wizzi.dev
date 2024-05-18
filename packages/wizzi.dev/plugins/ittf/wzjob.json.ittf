@@ -28,6 +28,7 @@
         {
             name "${md.name}"
             plugin_type "syntax_structure"
+            isForBinaryFile false
             [ includes
                 {
                     Name "Js"

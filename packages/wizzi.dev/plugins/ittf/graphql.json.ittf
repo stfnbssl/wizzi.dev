@@ -29,6 +29,7 @@
             hasTextContents false
             hasWizzifier true
             hasCheatsheetFolder true
+            isForBinaryFile false
             { wizzifier
                 [ parserImportCode
                     "var graphql_parser = require('graphql/language/parser')"

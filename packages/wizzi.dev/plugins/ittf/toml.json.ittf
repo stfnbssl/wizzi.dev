@@ -1,0 +1,51 @@
+{
+    $
+        var md = {
+            name: "toml",
+            description: "Toml document"
+        }
+    
+    base-plugin( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$
+
+    [ BuildVars
+        {
+            name "useTomlParser"
+            value "true"
+            type "boolean"
+
+    [ Schemas
+        {
+            name "${md.name}"
+            plugin_type "data"
+            rootTag "{|["
+            multiLineCommentBegin false
+            multiLineCommentEnd false
+            hasWizzifier true
+            hasBuiltinWizziModel true
+            hasCheatsheetFolder true
+            isForBinaryFile false
+            { wizzifier
+                [ parserImportCode
+                    "var ${md.name}_parser = require('toml')"
+                [ parserInvokeCode
+                    "_ ${md.name}_parser.parse"
+                    "\t@ tobeWizzified"
+                useFormatAstMethods true
+            [ includes
+            [ transformers
+            [ artifacts
+                {
+                    name "document"
+                    outmime "${md.name}"
+                    isDefault true
+                    contentType "text/${md.name}"
+            [ fileExtensions
+                "${md.name}"

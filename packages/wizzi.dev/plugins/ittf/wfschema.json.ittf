@@ -29,6 +29,7 @@
             name "${md.name}"
             plugin_type "syntax_structure"
             hasCheatsheetFolder true
+            isForBinaryFile false
             [ includes
                 {
                     Name "Js"

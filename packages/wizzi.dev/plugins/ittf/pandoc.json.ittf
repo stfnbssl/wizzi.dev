@@ -28,6 +28,7 @@
             name "pandoc"
             plugin_type "syntax_structure"
             hasWizzifier false
+            isForBinaryFile false
             { wizzifier
             [ includes
             [ transformers

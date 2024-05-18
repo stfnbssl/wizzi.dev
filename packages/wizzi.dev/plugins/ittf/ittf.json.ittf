@@ -32,6 +32,7 @@
             multiLineCommentEnd "*${'$'}"
             hasBuiltinWizziModel true
             hasCheatsheetFolder true
+            isForBinaryFile false
             [ includes
             [ transformers
                 {

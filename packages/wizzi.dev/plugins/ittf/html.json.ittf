@@ -30,11 +30,11 @@
             plugin_type "syntax_structure"
             hasNamespaces false
             hasTextContents false
-            hasWizzifier true
             multiLineCommentBegin "<!--"
             multiLineCommentEnd "-->"
             hasWizzifier true
             hasCheatsheetFolder true
+            isForBinaryFile false
             { wizzifier
                 [ parserImportCode
                     "var ${md.name}_parser = require('./parser')"

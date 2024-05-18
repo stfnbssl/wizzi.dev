@@ -1,0 +1,57 @@
+{
+    $
+        var md = {
+            name: "prisma",
+            description: "Prisma document"
+        }
+    
+    base-plugin( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$
+
+    [ BuildVars
+        {
+            name "useTomlParser"
+            value "true"
+            type "boolean"
+
+    [ npmPackages
+        {
+            name "@loancrate/prisma-schema-parser"
+            version "^2.0.0"
+
+    [ Schemas
+        {
+            name "${md.name}"
+            plugin_type "data"
+            rootTag "${md.name}"
+            multiLineCommentBegin false
+            multiLineCommentEnd false
+            hasWizzifier true
+            hasBuiltinWizziModel false
+            hasCheatsheetFolder true
+            isForBinaryFile false
+            { wizzifier
+                [ parserImportCode
+                    "var ${md.name}_parser = require('@loancrate/prisma-schema-parser')"
+                    "# { formatAst, parsePrismaSchema } from '@loancrate/prisma-schema-parser')"
+                [ parserInvokeCode
+                    "_ ${md.name}_parser.parsePrismaSchema"
+                    "\t@ tobeWizzified"
+                useFormatAstMethods true
+            [ includes
+            [ transformers
+            [ artifacts
+                {
+                    name "document"
+                    outmime "${md.name}"
+                    isDefault true
+                    contentType "text/${md.name}"
+            [ fileExtensions
+                "${md.name}"

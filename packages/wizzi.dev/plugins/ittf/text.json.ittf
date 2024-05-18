@@ -32,6 +32,7 @@
             hasWizzifier true
             hasBuiltinWizziModel true
             hasCheatsheetFolder true
+            isForBinaryFile false
             { wizzifier
                 [ parserImportCode
                     "var ${md.name}_parser = require('./parser')"

@@ -30,6 +30,7 @@
             hasNamespaces false
             hasTextContents false
             hasCheatsheetFolder true
+            isForBinaryFile false
             [ includes
             [ transformers
             [ artifacts

@@ -1,0 +1,60 @@
+{
+    $
+        var md = {
+            name: "bin",
+            description: "Binary files"
+        }
+    
+    base-plugin( &md )
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$
+
+    [ Schemas
+        {
+            name "${md.name}"
+            plugin_type "data"
+            multiLineCommentBegin false
+            multiLineCommentEnd false
+            hasWizzifier true
+            hasBuiltinWizziModel true
+            hasCheatsheetFolder false
+            isForBinaryFile true
+            { wizzifier
+                [ parserImportCode
+                [ parserInvokeCode
+                useFormatAstMethods false
+            [ includes
+            [ transformers
+            [ artifacts
+                {
+                    name "document"
+                    outmime "txt"
+                    contentType "${md.name}/plain"
+                    isDefault true
+            [ fileExtensions
+                "${md.name}"
+                "bmp"
+                "gif"
+                "ico"
+                "jpg"
+                "jpeg"
+                "otf"
+                "png"
+                "tif"
+                "tiff"
+                "ttf"
+                "woff"

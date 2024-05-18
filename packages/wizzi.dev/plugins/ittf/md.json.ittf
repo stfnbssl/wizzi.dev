@@ -36,6 +36,7 @@
             multiLineCommentEnd "###"
             hasWizzifier true
             hasCheatsheetFolder true
+            isForBinaryFile false
             { wizzifier
                 [ parserImportCode
                     "var md_parser = require('marked')"

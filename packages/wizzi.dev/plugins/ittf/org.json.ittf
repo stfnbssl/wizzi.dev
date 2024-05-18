@@ -17,6 +17,7 @@
             plugin_type "data"
             hasNamespaces true
             hasTextContents true
+            isForBinaryFile false
             [ includes
             [ transformers
             [ artifacts

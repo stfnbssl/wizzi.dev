@@ -11,7 +11,8 @@ $group
         email "stfn.bssl@gmail.com"
     { license
         type "MIT"
-        copy "copy 2023"
+        url "https://github.com/stfnbssl/wizzi.metas/tree/main/packages/wizzi.meta.${md.name}/license.text"
+        copy "copy 2024"
 
     { github
         userid "stfnbssl"

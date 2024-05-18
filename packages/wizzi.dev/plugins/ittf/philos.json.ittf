@@ -28,6 +28,7 @@
             name "${md.name}"
             plugin_type "data"
             hasWizzifier false
+            isForBinaryFile false
             { wizzifier
             [ includes
             [ transformers

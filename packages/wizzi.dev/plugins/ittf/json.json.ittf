@@ -33,6 +33,7 @@
             hasWizzifier true
             hasBuiltinWizziModel true
             hasCheatsheetFolder true
+            isForBinaryFile false
             { wizzifier
                 [ parserImportCode
                     "var ${md.name}_parser = require('./parser')"
@@ -62,4 +63,5 @@
                     outmime "yaml"
             [ fileExtensions
                 "${md.name}"
+                "code-snippets"
 

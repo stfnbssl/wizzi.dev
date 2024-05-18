@@ -14,8 +14,10 @@ $group
                 @ "md"
                 @ "pdf"
                 @ "ppt"
+                @ "prisma"
                 @ "svg"
                 @ "text"
+                @ "toml"
                 @ "ts"
                 @ "vtt"
                 $$$*$

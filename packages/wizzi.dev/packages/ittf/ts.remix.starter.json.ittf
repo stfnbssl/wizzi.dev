@@ -7,9 +7,24 @@
         }
 
     base-package-v2( &md )
+
+    { App
+        name "${md.name}"
+        title "${md.title}"
     
     params/use( tsCommons
     params/use( tsRemixApp
+        params/use( express
+        params/use( env
+        params/use( prettier
+        params/use( tailwindcss
+        params/use( prisma
+        params/use( epic
+            params/use( svgIcons
+            params/use( theme
+            params/use( user
+            params/use( sqlLite
+        params/use( tests
 
     [ BuildVars
         $*

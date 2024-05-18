@@ -2,7 +2,7 @@
     artifact generator: C:\My\wizzi\stfnbssl\wizzi.plugins\packages\wizzi.plugin.js\lib\artifacts\js\module\gen\main.js
     package: @wizzi/plugin.js@0.8.9
     primary source IttfDocument: C:\My\wizzi\stfnbssl\wizzi.dev\packages\wizzi.dev.utils\.wizzi-override\src\actions\produceMetas.js.ittf
-    utc time: Thu, 25 Apr 2024 11:34:09 GMT
+    utc time: Wed, 15 May 2024 02:49:41 GMT
 */
 'use strict';
 const path = require("path");
@@ -13,17 +13,18 @@ const metaList = [
     "commons", 
     "docs", 
     "documents", 
+    "js", 
     "js.db", 
     "js.express", 
-    "js", 
     "js.node", 
     "js.react", 
     "js.vanilla", 
+    "ts", 
     "ts.db", 
     "ts.express", 
-    "ts", 
     "ts.nextjs", 
     "ts.react", 
+    "ts.remix", 
     "web", 
     "wizzi"
 ];

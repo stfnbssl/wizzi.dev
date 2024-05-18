@@ -28,6 +28,7 @@
             name "plain"
             plugin_type "syntax_structure"
             hasWizzifier true
+            isForBinaryFile false
             { wizzifier
                 [ parserImportCode
                 [ parserInvokeCode

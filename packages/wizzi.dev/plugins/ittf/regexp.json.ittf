@@ -29,6 +29,7 @@
             plugin_type "syntax_structure"
             hasNamespaces false
             hasTextContents false
+            isForBinaryFile false
             [ includes
             [ transformers
             [ artifacts

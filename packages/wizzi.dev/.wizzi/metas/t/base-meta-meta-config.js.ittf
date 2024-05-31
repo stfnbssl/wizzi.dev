@@ -34,6 +34,7 @@ $group
                 @ "./wizzi.meta.ts.db/index"
                 @ "./wizzi.meta.web/index"
                 @ "./wizzi.meta.wizzi/index"
+                @ "./wizzi.meta.wizzi.dev/index"
             @ metaPluginsBaseFolder "C:/My/wizzi/stfnbssl/wizzi.metas/packages"
             { globalContext
                 @ isPackageDeploy true

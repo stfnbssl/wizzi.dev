@@ -30,6 +30,13 @@
 
     [ Productions
         {
+            name "${md.prefix}CLI"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "CLI"
+        {
             name "${md.prefix}Commons"
             [ categories
                 {

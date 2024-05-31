@@ -1,0 +1,9 @@
+module
+    kind es6
+
+    $
+        var md = {
+            name: 'wizzi.dev'
+        };
+
+    base-meta-meta-config( &md )

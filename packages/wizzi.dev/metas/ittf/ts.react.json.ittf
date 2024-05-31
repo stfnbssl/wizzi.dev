@@ -124,6 +124,15 @@
                 {
                     name "react"
         {
+            name "${md.prefix}RadixUi"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "radixui"
+        {
             name "${md.prefix}Redux"
             [ categories
                 {

@@ -2,7 +2,7 @@
     artifact generator: C:\My\wizzi\stfnbssl\wizzi.plugins\packages\wizzi.plugin.js\lib\artifacts\js\module\gen\main.js
     package: @wizzi/plugin.js@0.8.9
     primary source IttfDocument: C:\My\wizzi\stfnbssl\wizzi.dev\packages\wizzi.dev\.wizzi\packages\wizzi.meta.config.wizzi.studio.js.ittf
-    utc time: Wed, 08 May 2024 03:19:02 GMT
+    utc time: Fri, 31 May 2024 11:29:16 GMT
 */
 'use strict';
 const path = require('path');
@@ -42,7 +42,8 @@ module.exports = {
         "./wizzi.meta.ts.remix/index", 
         "./wizzi.meta.ts.db/index", 
         "./wizzi.meta.web/index", 
-        "./wizzi.meta.wizzi/index"
+        "./wizzi.meta.wizzi/index", 
+        "./wizzi.meta.wizzi.dev/index"
     ], 
     metaPluginsBaseFolder: "C:/My/wizzi/stfnbssl/wizzi.metas/packages", 
     globalContext: {

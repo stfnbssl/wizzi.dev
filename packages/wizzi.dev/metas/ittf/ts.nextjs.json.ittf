@@ -32,6 +32,30 @@
 
     [ Productions
         {
+            name "${md.prefix}App"
+            isPackageMain true
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "nextjs"
+                {
+                    name "app"
+        {
+            name "${md.prefix}Auth"
+            isPackageMain true
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "nextjs"
+                {
+                    name "auth"
+        {
             name "${md.prefix}BasicApp"
             isPackageMain true
             [ categories

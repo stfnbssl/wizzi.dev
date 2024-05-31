@@ -1,0 +1,43 @@
+{
+
+    $
+        var md = {
+            name: "ts.nextjs.starter",
+            title: "Starter world Nextjs App"
+        }
+
+    base-package-v2( &md )
+
+    { App
+        name "${md.name}"
+        title "${md.title}"
+        params/use( esModule, false
+        isStandalone true
+    
+    params/use( tsCommons
+    params/use( tsNextjsAuth
+        params/use( provider
+            params/use( gitHub
+        params/use( database
+            params/use( prisma
+    params/use( tsNextjsApp
+        params/use( prisma
+            params/use( seed, false
+        params/use( tailwind
+    params/use( tsReactRadixUi
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$

@@ -1,0 +1,10 @@
+module
+    kind es6
+
+    $
+        var md = {
+            name: 'ts.react.vite.starter',
+            outputPath: 'C:/My/wizzi/stfnbssl/wizzi.demo/packages/ts.react.vite.starter'
+        };
+
+    base-meta-package-config( &md )

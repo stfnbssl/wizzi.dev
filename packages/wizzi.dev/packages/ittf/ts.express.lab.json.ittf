@@ -1,0 +1,176 @@
+{
+
+    $
+        var md = {
+            name: "ts.express.lab",
+            title: "Typescript express lab"
+        }
+        var isLocal = true; // it is enough to set this to false and generate for deployong to heroku
+        var isProduction = false;
+        var cloudDomain = "www.wizzihub.com";
+        var port = 5100;
+        var useSslCert = false;
+        var useSsl = isLocal ? false : true;
+        var http = useSsl ? 'https' : 'http';
+        var domain = isLocal ? "localhost" : cloudDomain;
+
+    { App
+        name "${md.name}"
+        kind "Server"
+
+    isLocal ${isLocal ? "true" : "false"}
+    isProduction ${isProduction ? "true" : "false"}
+    { production
+    useSsl ${useSsl ? "true" : "false"}
+    useSslCert ${useSslCert ? "true" : "false"}
+    domain "${domain}"
+    port "${port}"
+    siteUrl "${http}://${domain}"
+    $if domain == "localhost"
+        baseUrl "${http}://${domain}:${port}"
+        useCors true
+        { cors
+            [ clientOrigins
+                "${http}://${domain}:${port}"
+                "${http}://${domain}:5173"
+    $else
+        baseUrl "${http}://${domain}"
+        useCors true
+        { cors
+            [ clientOrigins
+                "${http}://${domain}"
+    siteUrlLocal "${http}://localhost"
+    baseUrlLocal "${http}://localhost:${port}"
+    apiVersion "v1"
+
+    base-package-v2( &md )
+
+    params/use( tsCommons
+    params/use( tsExpress
+        params/use( cors
+        params/use( reactPages
+    params/use( tsExpressUtils
+    params/use( tsDbMongoDb
+    params/use( tsExpressAppLab
+        [ features
+            {
+                name "wizziProductions"
+                useMongoDb false
+                hasControllers true
+            {
+                name "wizziHubProductions"
+                useMongoDb true
+                hasControllers true
+            {
+                name "wizziMeta"
+                useMongoDb false
+                hasControllers true
+        useTranspiler true
+        { transpiler
+            name "esbuild"
+            bundle true
+    params/use( wizziDev
+        [ plugins
+            "./wizzi.plugin.css/index.js"
+            "./wizzi.plugin.html/index.js"
+            "./wizzi.plugin.ittf/index.js"
+            "./wizzi.plugin.js/index.js"
+            "./wizzi.plugin.json/index.js"
+            "./wizzi.plugin.md/index.js"
+            "./wizzi.plugin.svg/index.js"
+            "./wizzi.plugin.text/index.js"
+            "./wizzi.plugin.ts/index.js"
+            "./wizzi.plugin.xml/index.js"
+            "./wizzi.plugin.yaml/index.js"
+        pluginsBaseFolder 'C:/My/wizzi/stfnbssl/wizzi.plugins/packages'
+    params/use( wizziDevProductions
+    params/use( wizziDevHubProductions
+    params/use( wizziDevHubDbCli
+    params/use( wizziDevMeta
+        [ metaPlugins
+            "./wizzi.meta.cloud/index"
+            "./wizzi.meta.commons/index"
+            "./wizzi.meta.demo/index"
+            "./wizzi.meta.docs/index"
+            "./wizzi.meta.documents/index"
+            "./wizzi.meta.js/index"
+            "./wizzi.meta.js.db/index"
+            "./wizzi.meta.js.node/index"
+            "./wizzi.meta.js.vanilla/index"
+            "./wizzi.meta.js.react/index"
+            "./wizzi.meta.ts/index"
+            "./wizzi.meta.ts.express/index"
+            "./wizzi.meta.ts.react/index"
+            "./wizzi.meta.ts.db/index"
+            "./wizzi.meta.web/index"
+            "./wizzi.meta.wizzi/index"
+            "./wizzi.meta.wizzi.dev/index"
+        metaPluginsBaseFolder 'C:/My/wizzi/stfnbssl/wizzi.metas/packages'
+
+    
+    $*
+        params/use( reactPages
+    params/use( tsExpressUtils
+        params/use( scripts
+        params/use( wizziFs
+    params/use( tsExpressFeatureConfig
+        params/use( studioUserInfo
+        [ values
+            $*
+            {
+                type 'string'
+                name '___'
+                value '___'
+            *$
+    $*
+    params/use( tsExpressFeaturePacki
+        params/use( packiProductions
+        params/use( packiStudioFolderEdit         
+    params/use( tsExpressFeatureWizzi
+        [ plugins
+            "./wizzi.plugin.css/index.js"
+            "./wizzi.plugin.html/index.js"
+            "./wizzi.plugin.ittf/index.js"
+            "./wizzi.plugin.js/index.js"
+            "./wizzi.plugin.json/index.js"
+            "./wizzi.plugin.md/index.js"
+            "./wizzi.plugin.svg/index.js"
+            "./wizzi.plugin.text/index.js"
+            "./wizzi.plugin.ts/index.js"
+            "./wizzi.plugin.xml/index.js"
+            "./wizzi.plugin.yaml/index.js"
+        pluginsBaseFolder 'C:/My/wizzi/stfnbssl/wizzi.plugins/packages'
+        params/use( wizziFs
+        params/use( wizziGist
+        params/use( wizziMeta
+            [ metaPlugins
+            metaPluginsBaseFolder 'C:/My/wizzi/stfnbssl/wizzi.metas/packages'
+        params/use( wizziProduction
+    params/use( tsExpressFeatureWizziDocs
+    params/use( tsExpressWizziSite
+        params/use( demoHome
+        params/use( demoWizzi
+        params/use( wizziDocs
+        params/use( packiProductions
+    params/use( tsDbMongoDb
+    params/use( webHtml
+    params/use( webIttfSite
+    params/use( webIttfStudioMeta
+    params/use( webWizziDocs
+    *$
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$

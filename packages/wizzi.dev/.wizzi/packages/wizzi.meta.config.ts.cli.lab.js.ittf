@@ -1,0 +1,10 @@
+module
+    kind es6
+
+    $
+        var md = {
+            name: 'ts.cli.lab',
+            outputPath: 'C:/My/wizzi/stfnbssl/wizzi.demo/packages/ts.cli.lab'
+        };
+
+    base-meta-package-config( &md )

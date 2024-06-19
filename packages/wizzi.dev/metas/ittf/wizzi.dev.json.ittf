@@ -32,12 +32,17 @@
 
     [ Productions
         {
+            name "${md.prefix}"
+            [ categories
+                {
+                    name "wizzi"
+        {
             name "${md.prefix}Productions"
             [ categories
                 {
                     name "wizzi"
         {
-            name "${md.prefix}Packi"
+            name "${md.prefix}Meta"
             [ categories
                 {
                     name "wizzi"

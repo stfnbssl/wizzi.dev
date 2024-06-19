@@ -1,0 +1,46 @@
+{
+
+    $
+        var md = {
+            name: "ts.cli.lab",
+            title: "Typescript CLI lab App"
+        }
+
+    base-package-v2( &md )
+
+    { App
+        name "${md.name}"
+        title "${md.title}"
+    
+    params/use( tsCommons
+    params/use( tsCLI
+        params/use( commander
+            title "${md.title}"
+            [ commands
+                $*
+                {
+                    name "mp1"
+                    label "Execute a meta provides get - 1"
+                    function "metaProvides1"
+                *$
+        params/use( figlet
+            title "${md.title}"
+        params/use( transpiler
+            name "esbuild"
+            bundle true
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$

@@ -17,20 +17,54 @@
         params/use( commander
             title "${md.title}"
             [ commands
+                $*
                 {
                     name "mp1"
                     label "Execute a meta provides get - 1"
                     function "metaProvides1"
-                {
-                    name "mp2"
-                    label "Execute a meta provides get - 2"
-                    function "metaProvides2"
+                *$
         params/use( figlet
             title "${md.title}"
+        params/use( transpiler
+            name "esbuild"
+            bundle true
         params/use( mongoDb
+        [ features
+            {
+                name "wizziHubProductions"
+                useMongoDb true
+                hasControllers false
     $$ params/use( tsExpress
     $$ params/use( tsDbMongoDb
-    params/use( wizziDevPacki
+    params/use( wizziDev
+        [ plugins
+            "./wizzi.plugin.css/index.js"
+            "./wizzi.plugin.html/index.js"
+            "./wizzi.plugin.ittf/index.js"
+            "./wizzi.plugin.js/index.js"
+            "./wizzi.plugin.json/index.js"
+            "./wizzi.plugin.md/index.js"
+            "./wizzi.plugin.svg/index.js"
+            "./wizzi.plugin.text/index.js"
+            "./wizzi.plugin.ts/index.js"
+            "./wizzi.plugin.xml/index.js"
+            "./wizzi.plugin.yaml/index.js"
+        pluginsBaseFolder 'C:/My/wizzi/stfnbssl/wizzi.plugins/packages'
+    params/use( wizziDevProductions
+    params/use( wizziDevMeta
+        [ metaPlugins
+            "./wizzi.meta.commons/index"
+            "./wizzi.meta.docs/index"
+            "./wizzi.meta.documents/index"
+            "./wizzi.meta.ts/index"
+            "./wizzi.meta.ts.express/index"
+            "./wizzi.meta.ts.react/index"
+            "./wizzi.meta.ts.db/index"
+            "./wizzi.meta.web/index"
+            "./wizzi.meta.wizzi/index"
+            "./wizzi.meta.wizzi.dev/index"
+        metaPluginsBaseFolder "C:/My/wizzi/stfnbssl/wizzi.metas/packages"
+
     params/use( wizziDevHubProductions
     params/use( wizziDevHubDbCli
 

@@ -49,6 +49,16 @@
                 {
                     name "webapp"
         {
+            name "${md.prefix}AppLab"
+            isPackageMain true
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "express"
+                {
+                    name "webapp"
+        {
             name "${md.prefix}Data"
             [ categories
                 {

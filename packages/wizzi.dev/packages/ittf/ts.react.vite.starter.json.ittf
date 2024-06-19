@@ -1,0 +1,36 @@
+{
+
+    $
+        var md = {
+            name: "ts.react.vite.starter",
+            title: "Typescript react vite starter App"
+        }
+
+    base-package-v2( &md )
+
+    { App
+        name "${md.name}"
+        title "${md.title}"
+    
+    params/use( tsCommons
+    params/use( tsReactViteAppStarter
+        params/use( router
+        params/use( eslint
+        params/use( prettier
+        params/use( husky, false
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$

@@ -1,7 +1,7 @@
 /*
     artifact generator: C:\My\wizzi\stfnbssl\wizzi.plugins\packages\wizzi.plugin.js\lib\artifacts\js\module\gen\main.js
     package: @wizzi/plugin.js@0.8.9
-    primary source IttfDocument: C:\My\wizzi\stfnbssl\wizzi.dev\packages\wizzi.dev\.wizzi\packages\wizzi.meta.config.ts.remix.starter.js.ittf
+    primary source IttfDocument: C:\My\wizzi\stfnbssl\wizzi.dev\packages\wizzi.dev\.wizzi\packages\wizzi.meta.config.ts.cli.lab.js.ittf
     utc time: Tue, 11 Jun 2024 19:28:26 GMT
 */
 'use strict';
@@ -13,9 +13,9 @@ const path = require('path');
 // const args = minimist(process.argv.slice(2))
 
 module.exports = {
-    meta: "meta-package-ts-remix-starter", 
-    metaCtxPath: path.join(__dirname, "ittf", "ts.remix.starter.json.ittf"), 
-    destPath: "C:/My/wizzi/stfnbssl/wizzi.demo/packages/ts.remix.starter", 
+    meta: "meta-package-ts-cli-lab", 
+    metaCtxPath: path.join(__dirname, "ittf", "ts.cli.lab.json.ittf"), 
+    destPath: "C:/My/wizzi/stfnbssl/wizzi.demo/packages/ts.cli.lab", 
     plugins: [
         "./wizzi.plugin.html/index", 
         "./wizzi.plugin.js/index", 

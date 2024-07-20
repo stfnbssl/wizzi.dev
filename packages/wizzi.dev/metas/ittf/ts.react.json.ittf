@@ -110,6 +110,15 @@
                 {
                     name "editor"
         {
+            name "${md.prefix}DemoApp"
+            [ categories
+                {
+                    name "typescript"
+                {
+                    name "react"
+                {
+                    name "demo"
+        {
             name "${md.prefix}Features"
             [ categories
                 {

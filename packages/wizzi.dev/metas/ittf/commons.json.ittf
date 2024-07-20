@@ -68,6 +68,16 @@
                 {
                     name "git"
         {
+            name "${md.prefix}Husky"
+            [ categories
+                {
+                    name "husky"
+        {
+            name "${md.prefix}Javascript"
+            [ categories
+                {
+                    name "javascript"
+        {
             name "${md.prefix}Package"
             [ categories
                 {
@@ -103,12 +113,24 @@
                 {
                     name "css"
         {
+            name "${md.prefix}Typescript"
+            [ categories
+                {
+                    name "typescript"
+        {
+            name "${md.prefix}Vite"
+            [ categories
+                {
+                    name "packager"
+                {
+                    name "vite"
+        {
             name "${md.prefix}Webpack"
             [ categories
                 {
-                    name "package"
+                    name "packager"
                 {
-                    name "jspackager"
+                    name "webpack"
         {
             name "${md.prefix}Wizzi"
             [ categories

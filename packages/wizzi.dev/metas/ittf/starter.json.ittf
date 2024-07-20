@@ -23,8 +23,16 @@
     [ Categories
         {
             name "wizzi-lab"
-    
+
     [ Productions
         {
-            name "${md.prefix}Production1"
+            name "${md.prefix}ProdOne"
             isPackageMain true
+            [ categories
+                {
+                    name "wizzi-lab"
+        {
+            name "${md.prefix}ProdTwo"
+            [ categories
+                {
+                    name "wizzi-lab"

@@ -98,6 +98,7 @@
             "./wizzi.meta.js.node/index"
             "./wizzi.meta.js.vanilla/index"
             "./wizzi.meta.js.react/index"
+            "./wizzi.meta.starter/index"
             "./wizzi.meta.ts/index"
             "./wizzi.meta.ts.express/index"
             "./wizzi.meta.ts.react/index"

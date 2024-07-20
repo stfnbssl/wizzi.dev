@@ -1,0 +1,10 @@
+module
+    kind es6
+
+    $
+        var md = {
+            name: 'ts.react.vite.tailwind',
+            outputPath: 'C:/My/wizzi/stfnbssl/wizzi.demo/packages/ts.react.vite.tailwind'
+        };
+
+    base-meta-package-config( &md )

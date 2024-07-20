@@ -1,0 +1,65 @@
+{
+
+    $
+        var md = {
+            name: "wizzi.hub.frontend",
+            title: "Wizzi hub frontend"
+        }
+
+    base-package-v2( &md )
+
+    { App
+        name "${md.name}"
+        title "${md.title}"
+
+    params/use( commonsPackage
+    params/use( commonsTypescript
+        params/use( configPaths
+            [ items
+                {
+                    name "@/src"
+                    path "src"
+                {
+                    name "@/Api"
+                    path "src/Api"
+                {
+                    name "@/Assets"
+                    path "src/Assets"
+                {
+                    name "@/Components"
+                    path "src/Components"
+                {
+                    name "@/Data"
+                    path "src/Data"
+                {
+                    name "@/Pages"
+                    path "src/Pages"
+                {
+                    name "@/Utils"
+                    path "src/Utils"
+    params/use( commonsVite
+        params/use( presetReact
+    params/use( commonsTailwind
+        params/use( autoprefixer
+    params/use( commonsEslint
+    params/use( commonsPrettier
+    params/use( commonsHusky
+    params/use( tsCommons
+    params/use( tsReactViteAppStarter
+        params/use( router
+
+    [ BuildVars
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$
+
+    [ globals
+        $*
+        {
+            name "___"
+            value "___"
+            type "string"
+        *$
